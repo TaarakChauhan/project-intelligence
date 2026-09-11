@@ -1,0 +1,443 @@
+[
+  {
+    "title": "TED Talks: The Official TED Guide to Public Speaking",
+    "type": "book",
+    "url": null,
+    "author": "Chris Anderson",
+    "cost": "paid (~$15–20 paperback)",
+    "level": "all",
+    "notes": "Official TED philosophy: throughline, idea building, connection."
+  },
+  {
+    "title": "Talk Like TED",
+    "type": "book",
+    "url": "https://us.macmillan.com/books/9781250061539/talkliketed/",
+    "author": "Carmine Gallo",
+    "cost": "paid",
+    "level": "all",
+    "notes": "Nine secrets from top TED talks; storytelling, 18-minute rule, emotion."
+  },
+  {
+    "title": "Resonate: Present Visual Stories that Transform Audiences",
+    "type": "book",
+    "url": null,
+    "author": "Nancy Duarte",
+    "cost": "paid",
+    "level": "intermediate",
+    "notes": "Audience-as-hero; contrast structure; S.T.A.R. moments."
+  },
+  {
+    "title": "slide:ology",
+    "type": "book",
+    "url": null,
+    "author": "Nancy Duarte",
+    "cost": "paid",
+    "level": "intermediate",
+    "notes": "Visual design for presentations."
+  },
+  {
+    "title": "Made to Stick",
+    "type": "book",
+    "url": null,
+    "author": "Chip Heath & Dan Heath",
+    "cost": "paid",
+    "level": "all",
+    "notes": "SUCCESs framework for memorable messages (Simple, Unexpected, Concrete, Credible, Emotional, Stories)."
+  },
+  {
+    "title": "Confessions of a Public Speaker",
+    "type": "book",
+    "url": "https://scottberkun.com/the-books/confessions-of-a-public-speaker/",
+    "author": "Scott Berkun",
+    "cost": "paid",
+    "level": "all",
+    "notes": "Honest, practical; disasters, tough rooms, butterflies."
+  },
+  {
+    "title": "The Art of Public Speaking",
+    "type": "book",
+    "url": null,
+    "author": "Dale Carnegie (with J. Berg Esenwein; classic 1915+ editions)",
+    "cost": "free/public domain & paid editions",
+    "level": "beginner",
+    "notes": "Classic foundational guide; many modern annotated editions exist."
+  },
+  {
+    "title": "The Art of Public Speaking (textbook)",
+    "type": "book",
+    "url": "https://www.mheducation.com/prek-12/product/lucas-art-public-speaking-2020-13e-student-edition-lucas/9780076942244.html",
+    "author": "Stephen E. Lucas",
+    "cost": "paid (academic textbook)",
+    "level": "beginner–intermediate",
+    "notes": "Most widely used college public speaking textbook."
+  },
+  {
+    "title": "Pitch Perfect: How to Say It Right the First Time, Every Time",
+    "type": "book",
+    "url": null,
+    "author": "Bill McGowan",
+    "cost": "paid",
+    "level": "intermediate",
+    "notes": "Media/executive messaging; clarity and sound bites."
+  },
+  {
+    "title": "Speak, Memorably: The Art of Captivating an Audience",
+    "type": "book",
+    "url": "https://www.harvard.com/book/9780063415195",
+    "author": "Bill McGowan & Juliana Silva",
+    "cost": "paid (~$32 hardcover)",
+    "level": "intermediate–advanced",
+    "notes": "Authentic voice; cutting corporate jargon (2025)."
+  },
+  {
+    "title": "Don't Say Um",
+    "type": "book",
+    "url": "https://www.hachettebookgroup.com/titles/michael-chad-hoeppner/dont-say-um/9780306834516/?lens=balance",
+    "author": "Michael Chad Hoeppner",
+    "cost": "paid",
+    "level": "all",
+    "notes": "Physical exercises for delivery; filler words, presence (2026)."
+  },
+  {
+    "title": "Speak Like Churchill, Stand Like Lincoln",
+    "type": "book",
+    "url": null,
+    "author": "James C. Humes",
+    "cost": "paid",
+    "level": "intermediate",
+    "notes": "Historical techniques; frequently recommended on Six Minutes."
+  },
+  {
+    "title": "Dynamic Public Speaking Specialization",
+    "type": "course-free",
+    "url": "https://www.coursera.org/specializations/public-speaking",
+    "author": "Dr. Matt McGarrity, University of Washington",
+    "cost": "free to audit; certificate paid (Coursera Plus / course fees)",
+    "level": "beginner",
+    "notes": "4-course series: intro, inform, persuade, inspire. Verified."
+  },
+  {
+    "title": "PRDV008: Preparing and Delivering Presentations",
+    "type": "course-free",
+    "url": "https://learn.saylor.org/course/view.php?id=870",
+    "author": "Saylor Academy",
+    "cost": "free (incl. free certificate, 2.3 CEUs)",
+    "level": "beginner",
+    "notes": "~23 hours; audience analysis, delivery, anxiety. Verified."
+  },
+  {
+    "title": "Public Speaking (SkillUp)",
+    "type": "course-free",
+    "url": "https://www.simplilearn.com/free-public-speaking-course-skillup",
+    "author": "Simplilearn",
+    "cost": "free (short; completion certificate)",
+    "level": "beginner",
+    "notes": "~1 hour overview; structure, stage fright, storytelling."
+  },
+  {
+    "title": "Toastmasters Pathways (educational materials via membership)",
+    "type": "course-free",
+    "url": "https://www.toastmasters.org/",
+    "author": "Toastmasters International",
+    "cost": "membership ~$72 USD semiannually + one-time $25 new-member fee (+ club dues)",
+    "level": "all",
+    "notes": "Structured paths + live practice. Verified pricing from toastmasters.org."
+  },
+  {
+    "title": "TED Masterclass: TED's Official Public Speaking Course",
+    "type": "course-paid",
+    "url": "https://masterclass.ted.com/course-overview",
+    "author": "Chris Anderson (Head of TED)",
+    "cost": "paid (pricing varies; org/individual; contact TED)",
+    "level": "intermediate–advanced",
+    "notes": "11 lessons: ideas, throughline, storytelling, persuasion, visuals. Verified."
+  },
+  {
+    "title": "Dale Carnegie Successful Public Speaking / Presentation programs",
+    "type": "course-paid",
+    "url": "https://www.dalecarnegie.com/",
+    "author": "Dale Carnegie Training",
+    "cost": "paid (often ~$400–$600+ for short programs; varies by region)",
+    "level": "all",
+    "notes": "Live online/in-person; confidence-focused. Confirm local pricing."
+  },
+  {
+    "title": "Udemy public speaking bestsellers (various instructors)",
+    "type": "course-paid",
+    "url": "https://www.udemy.com/courses/search/?q=public%20speaking",
+    "author": "Various (e.g. TJ Walker, others)",
+    "cost": "typically $10–$20 on sale; list often $50–$200",
+    "level": "beginner–intermediate",
+    "notes": "Quality varies; filter by ratings/reviews. Chris Anderson Acumen course appears discontinued on Udemy."
+  },
+  {
+    "title": "Communication Coach Academy / LinkedIn Learning & Udemy courses",
+    "type": "course-paid",
+    "url": "https://www.alexanderlyon.com/",
+    "author": "Alexander Lyon, Ph.D.",
+    "cost": "free YouTube + paid courses/workshops",
+    "level": "all",
+    "notes": "Research-based workplace/leadership communication."
+  },
+  {
+    "title": "TED's secret to great public speaking",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/chris_anderson_ted_s_secret_to_great_public_speaking",
+    "author": "Chris Anderson",
+    "cost": "free",
+    "level": "all",
+    "notes": "Throughline / idea transfer. Verified."
+  },
+  {
+    "title": "How to speak so that people want to listen",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen",
+    "author": "Julian Treasure",
+    "cost": "free",
+    "level": "all",
+    "notes": "Vocal toolbox: register, timbre, prosody, pace, pitch, volume, silence. Verified."
+  },
+  {
+    "title": "The secret structure of great talks",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks",
+    "author": "Nancy Duarte",
+    "cost": "free",
+    "level": "intermediate",
+    "notes": "What-is vs what-could-be contrast structure. Verified."
+  },
+  {
+    "title": "How I beat stage fright",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/joe_kowan_how_i_beat_stage_fright",
+    "author": "Joe Kowan",
+    "cost": "free",
+    "level": "beginner",
+    "notes": "Reframe anxiety; practice + honesty with audience. Verified."
+  },
+  {
+    "title": "10 ways to have a better conversation",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation",
+    "author": "Celeste Headlee",
+    "cost": "free",
+    "level": "all",
+    "notes": "Listening, open questions, brevity. Verified."
+  },
+  {
+    "title": "How great leaders inspire action",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action",
+    "author": "Simon Sinek",
+    "cost": "free",
+    "level": "all",
+    "notes": "Start with Why / Golden Circle — messaging craft. Widely cited; TED page canonical."
+  },
+  {
+    "title": "Your body language may shape who you are",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are",
+    "author": "Amy Cuddy",
+    "cost": "free",
+    "level": "all",
+    "notes": "Presence/posture discussion; note mixed later research on 'power posing' effects—use for awareness of nonverbal presence."
+  },
+  {
+    "title": "Talk nerdy to me",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/melissa_marshall_talk_nerdy_to_me",
+    "author": "Melissa Marshall",
+    "cost": "free",
+    "level": "intermediate",
+    "notes": "Making technical content accessible."
+  },
+  {
+    "title": "Think Fast, Talk Smart",
+    "type": "podcast",
+    "url": "https://www.fastersmarter.io/",
+    "author": "Matt Abrahams (Stanford GSB)",
+    "cost": "free",
+    "level": "all",
+    "notes": "Practical communication techniques; also https://www.gsb.stanford.edu/business-podcasts/think-fast-talk-smart-podcast"
+  },
+  {
+    "title": "MasterTalk (YouTube)",
+    "type": "youtube",
+    "url": "https://www.youtube.com/mastertalks",
+    "author": "Brenden Kumarasamy",
+    "cost": "free",
+    "level": "beginner–intermediate",
+    "notes": "Short actionable drills (random word, Q&A, video messages)."
+  },
+  {
+    "title": "Communication Coach Alexander Lyon (YouTube)",
+    "type": "youtube",
+    "url": "https://www.alexanderlyon.com/",
+    "author": "Alexander Lyon",
+    "cost": "free",
+    "level": "all",
+    "notes": "Workplace communication, presentations, leadership."
+  },
+  {
+    "title": "Toastmasters International (YouTube)",
+    "type": "youtube",
+    "url": "https://www.youtube.com/@Toastmasters",
+    "author": "Toastmasters International",
+    "cost": "free",
+    "level": "all",
+    "notes": "Tips + World Championship speeches. Channel handle may vary; search official Toastmasters."
+  },
+  {
+    "title": "TEDx Talks / TED (YouTube)",
+    "type": "youtube",
+    "url": "https://www.youtube.com/user/TEDtalksDirector",
+    "author": "TED",
+    "cost": "free",
+    "level": "all",
+    "notes": "Model excellent talks; study structure and delivery."
+  },
+  {
+    "title": "Six Minutes",
+    "type": "blog",
+    "url": "https://sixminutes.dlugan.com/",
+    "author": "Andrew Dlugan",
+    "cost": "free",
+    "level": "all",
+    "notes": "Deep archive: openings, pauses, critiques of great speeches. Verified."
+  },
+  {
+    "title": "Monroe's Motivated Sequence",
+    "type": "framework",
+    "url": "https://www.mindtools.com/at48yzw/monroes-motivated-sequence/",
+    "author": "Alan H. Monroe",
+    "cost": "free to learn",
+    "level": "intermediate",
+    "notes": "Attention → Need → Satisfaction → Visualization → Action."
+  },
+  {
+    "title": "PREP (Point–Reason–Example–Point)",
+    "type": "framework",
+    "url": null,
+    "author": "Common business/rhetoric practice",
+    "cost": "free",
+    "level": "beginner",
+    "notes": "Ideal for impromptu answers and short arguments."
+  },
+  {
+    "title": "SUCCESs (Made to Stick)",
+    "type": "framework",
+    "url": null,
+    "author": "Chip Heath & Dan Heath",
+    "cost": "free concept / paid book",
+    "level": "all",
+    "notes": "Simple, Unexpected, Concrete, Credible, Emotional, Stories."
+  },
+  {
+    "title": "Duarte Sparkline (What is / What could be)",
+    "type": "framework",
+    "url": "https://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks",
+    "author": "Nancy Duarte",
+    "cost": "free talk + paid book",
+    "level": "intermediate",
+    "notes": "Oscillate between status quo and better future; end in new bliss."
+  },
+  {
+    "title": "Golden Circle (Start with Why)",
+    "type": "framework",
+    "url": "https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action",
+    "author": "Simon Sinek",
+    "cost": "free",
+    "level": "all",
+    "notes": "Why → How → What for persuasive messaging."
+  },
+  {
+    "title": "STAR (Situation–Task–Action–Result)",
+    "type": "framework",
+    "url": null,
+    "author": "Common interview/storytelling method",
+    "cost": "free",
+    "level": "beginner",
+    "notes": "Structured anecdotes for Q&A and stories."
+  },
+  {
+    "title": "Throughline (TED)",
+    "type": "framework",
+    "url": "https://www.ted.com/talks/chris_anderson_ted_s_secret_to_great_public_speaking",
+    "author": "Chris Anderson / TED",
+    "cost": "free",
+    "level": "all",
+    "notes": "One clear idea connecting every part of the talk."
+  },
+  {
+    "title": "Vocal variety (HAIL / Treasure toolbox)",
+    "type": "framework",
+    "url": "https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen",
+    "author": "Julian Treasure",
+    "cost": "free",
+    "level": "all",
+    "notes": "Honesty, Authenticity, Integrity, Love + 6 vocal tools."
+  },
+  {
+    "title": "Toastmasters International clubs",
+    "type": "community",
+    "url": "https://www.toastmasters.org/",
+    "author": "Toastmasters International",
+    "cost": "~$72/semiannual + $25 new member + club dues",
+    "level": "all",
+    "notes": "Global clubs; prepared speeches, Table Topics, evaluations. Verified."
+  },
+  {
+    "title": "Speechcraft (Toastmasters short program)",
+    "type": "practice",
+    "url": "https://www.toastmasters.org/",
+    "author": "Toastmasters International",
+    "cost": "varies by club/host",
+    "level": "beginner",
+    "notes": "Short workshop-style intro to speaking skills."
+  },
+  {
+    "title": "Record-and-review self practice",
+    "type": "practice",
+    "url": null,
+    "author": "Universal method",
+    "cost": "free",
+    "level": "all",
+    "notes": "Phone video; review filler words, pace, eye contact, structure."
+  },
+  {
+    "title": "Peer feedback circles / meetup speaking groups",
+    "type": "community",
+    "url": null,
+    "author": "Local / Meetup",
+    "cost": "free–low cost",
+    "level": "all",
+    "notes": "Search Meetup for public speaking / storytelling groups."
+  },
+  {
+    "title": "Yoodli AI speech coach",
+    "type": "app",
+    "url": "https://yoodli.ai/pricing",
+    "author": "Yoodli",
+    "cost": "free starter; Pro ~$8/mo annual; Advanced ~$20/mo annual",
+    "level": "all",
+    "notes": "AI feedback on fillers, pace, clarity. Verified pricing page."
+  },
+  {
+    "title": "Orai AI Public Speaking Coach",
+    "type": "app",
+    "url": "https://play.google.com/store/apps/details?id=com.orai&hl=en_US",
+    "author": "Orai",
+    "cost": "freemium / subscription",
+    "level": "all",
+    "notes": "Practice + AI scorecard on fillers, pace, energy."
+  },
+  {
+    "title": "Smartphone voice memo + camera",
+    "type": "app",
+    "url": null,
+    "author": "Built-in",
+    "cost": "free",
+    "level": "all",
+    "notes": "Best free practice tool: record full talks weekly."
+  }
+]

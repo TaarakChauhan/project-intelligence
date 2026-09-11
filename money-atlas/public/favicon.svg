@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Money Atlas">
+  <rect width="64" height="64" rx="8" fill="#0B1F33"/>
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#C4783A" stroke-width="1.5"/>
+  <ellipse cx="32" cy="32" rx="8" ry="20" fill="none" stroke="#C4783A" stroke-width="1.2"/>
+  <line x1="12" y1="32" x2="52" y2="32" stroke="#C4783A" stroke-width="1.2"/>
+  <circle cx="32" cy="32" r="3" fill="#1F7A6B"/>
+</svg>

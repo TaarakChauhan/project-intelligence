@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Business Decision Principles — a practical operating system for allocating capital, running companies, advising boards, and teaching judgment under uncertainty." />
+  <title>Business Decision Principles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="nav" id="nav" aria-label="Primary">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top">
+        <span class="nav__mark" aria-hidden="true"></span>
+        <span>Decision Principles</span>
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" id="nav-toggle">
+        <span class="sr-only">Menu</span>
+        <span></span><span></span>
+      </button>
+      <div class="nav__menu" id="nav-menu">
+        <a href="#research">Research</a>
+        <a href="#loop">Operating loop</a>
+        <a href="#foundations">Foundations</a>
+        <a href="#audience">Paths</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#worksheets">Worksheets</a>
+        <a class="btn btn--sm btn--gold" href="#start">Start learning</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- HERO -->
+    <header class="hero" id="top">
+      <div class="hero__mesh" aria-hidden="true">
+        <div class="orb orb--1"></div>
+        <div class="orb orb--2"></div>
+        <div class="orb orb--3"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container hero__content">
+        <p class="eyebrow reveal">Educational library · Capital · Operators · Boards</p>
+        <h1 class="hero__title reveal">
+          Decision quality under<br />
+          <em>uncertainty</em> — not luck after the fact.
+        </h1>
+        <p class="hero__lede reveal">
+          A practical operating system for venture investors, angels, owners, and directors.
+          Make assumptions visible. Match ceremony to stakes. Separate process from outcomes.
+          Learn from a record — not from rewriting history.
+        </p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--gold" href="#loop">See the operating loop</a>
+          <a class="btn btn--ghost" href="#research">Gompers et al. findings</a>
+        </div>
+        <dl class="hero__stats reveal">
+          <div>
+            <dt>885</dt>
+            <dd>VCs surveyed</dd>
+          </div>
+          <div>
+            <dt>681</dt>
+            <dd>VC firms</dd>
+          </div>
+          <div>
+            <dt>~95%</dt>
+            <dd>team important</dd>
+          </div>
+          <div>
+            <dt>9</dt>
+            <dd>curriculum folders</dd>
+          </div>
+        </dl>
+      </div>
+    </header>
+
+    <!-- RESEARCH STRIP -->
+    <section class="section research" id="research" aria-labelledby="research-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Research anchor</p>
+          <h2 id="research-title">What 885 VCs said actually matters</h2>
+          <p class="section__lede">
+            Gompers, Gornall, Kaplan &amp; Strebulaev surveyed <strong>885 venture capitalists at 681 firms</strong>
+            (NBER Working Paper 22587). These are survey findings — not a mechanical scorecard.
+            A fund’s mandate can make a rational pass on a company another fund should pursue.
+          </p>
+        </div>
+        <div class="research__grid">
+          <article class="stat-card glass reveal" data-stat="95">
+            <div class="stat-card__value"><span class="count" data-target="95">0</span>%</div>
+            <h3>Team important</h3>
+            <p>Approximately 95% mentioned team as important; ~47% called team the <em>most</em> important factor.</p>
+          </article>
+          <article class="stat-card glass reveal" style="--d:1">
+            <div class="stat-card__value"><span class="count" data-target="83">0</span>%</div>
+            <h3>Business model</h3>
+            <p>Mentioned by approximately 83% — how value is created, captured, and scaled under real constraints.</p>
+          </article>
+          <article class="stat-card glass reveal" style="--d:2">
+            <div class="stat-card__value"><span class="count" data-target="74">0</span>%</div>
+            <h3>Product</h3>
+            <p>Approximately 74% cited product — behaviour and evidence, not only a polished demo.</p>
+          </article>
+          <article class="stat-card glass reveal" style="--d:3">
+            <div class="stat-card__value"><span class="count" data-target="68">0</span>%</div>
+            <h3>Market</h3>
+            <p>Approximately 68% mentioned market. Team and market interact; neither alone is a mandate fit.</p>
+          </article>
+        </div>
+        <p class="research__note reveal">
+          Deal <strong>selection</strong> ranked as the most important among sourcing, selection, and value-add activities.
+        </p>
+      </div>
+    </section>
+
+    <!-- OPERATING LOOP -->
+    <section class="section loop-section" id="loop" aria-labelledby="loop-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Shared operating system</p>
+          <h2 id="loop-title">The seven-step decision loop</h2>
+          <p class="section__lede">
+            Judge decisions by the quality of the process and information available at the time —
+            not only by the result. A good decision can lose; a weak one can win. The loop keeps
+            framing, evidence, rights, and learning honest.
+          </p>
+        </div>
+        <ol class="loop" id="decision-loop">
+          <li class="loop__step glass reveal" data-step="1">
+            <span class="loop__num">01</span>
+            <h3>Frame</h3>
+            <p>One sentence. Objective, constraints, owner, deadline, do-nothing path. Label one-way, two-way, or mixed.</p>
+          </li>
+          <li class="loop__step glass reveal" data-step="2" style="--d:1">
+            <span class="loop__num">02</span>
+            <h3>Options</h3>
+            <p>Preferred path, alternatives, a smaller test, and waiting. Do not confuse a favourite with the only option.</p>
+          </li>
+          <li class="loop__step glass reveal" data-step="3" style="--d:2">
+            <span class="loop__num">03</span>
+            <h3>Evidence</h3>
+            <p>Claims that must be true, evidence that would update belief, source quality, and downside if wrong.</p>
+          </li>
+          <li class="loop__step glass reveal" data-step="4" style="--d:3">
+            <span class="loop__num">04</span>
+            <h3>Decision rights</h3>
+            <p>Who recommends, contributes, decides, executes, approves, and reviews. More voices ≠ more accountability.</p>
+          </li>
+          <li class="loop__step glass reveal" data-step="5" style="--d:4">
+            <span class="loop__num">05</span>
+            <h3>Commit</h3>
+            <p>Decision, rationale, boundaries, next action, dissent heard. Disagree-and-commit means dissent before the call.</p>
+          </li>
+          <li class="loop__step glass reveal" data-step="6" style="--d:5">
+            <span class="loop__num">06</span>
+            <h3>Observe</h3>
+            <p>Leading indicators and cash, customer, and people signals. Short feedback loops for uncertain moves.</p>
+          </li>
+          <li class="loop__step glass reveal" data-step="7" style="--d:6">
+            <span class="loop__num">07</span>
+            <h3>Review</h3>
+            <p>Process, forecast misses, luck, one improvement. Reopen only with new evidence or a pre-defined trigger.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FOUNDATIONS -->
+    <section class="section" id="foundations" aria-labelledby="foundations-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">01 · Foundations</p>
+          <h2 id="foundations-title">Five foundations of better judgment</h2>
+          <p class="section__lede">
+            Before specialist VC, angel, owner, or board technique — build the shared vocabulary.
+            Ceremony should match reversibility; models should change the plan or be dropped.
+          </p>
+        </div>
+        <div class="card-grid card-grid--5">
+          <article class="card glass reveal">
+            <span class="card__index">01</span>
+            <h3>Outcome vs process</h3>
+            <p>Separate decision quality from outcome quality. Ask what you knew then — do not rewrite the forecast to fit the result.</p>
+          </article>
+          <article class="card glass reveal" style="--d:1">
+            <span class="card__index">02</span>
+            <h3>One-way &amp; two-way doors</h3>
+            <p>Two-way doors: bounded experiments. One-way doors: slow down, invite dissent, model downside, get the right approvals.</p>
+          </article>
+          <article class="card glass reveal" style="--d:2">
+            <span class="card__index">03</span>
+            <h3>Mental models</h3>
+            <p>Expected value, inversion, premortem, second-order effects, OODA, regret minimisation, margin of safety — as lenses, not décor.</p>
+          </article>
+          <article class="card glass reveal" style="--d:3">
+            <span class="card__index">04</span>
+            <h3>Journals &amp; calibration</h3>
+            <p>Record assumptions, ranges, and review triggers before acting. Calibration is a long-run property across a set of forecasts.</p>
+          </article>
+          <article class="card glass reveal" style="--d:4">
+            <span class="card__index">05</span>
+            <h3>Bias safeguards</h3>
+            <p>Confirmation, anchoring, availability, sunk cost, overconfidence, groupthink — design the environment, not a character diagnosis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUDIENCE PATHS -->
+    <section class="section audience" id="audience" aria-labelledby="audience-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Role paths</p>
+          <h2 id="audience-title">Choose your lens</h2>
+          <p class="section__lede">
+            Same operating system — different constraints. Capital allocators, operators, and directors
+            face distinct liquidity, authority, and emotional stakes.
+          </p>
+        </div>
+        <div class="tabs reveal" role="tablist" aria-label="Audience paths">
+          <button class="tabs__btn is-active" role="tab" aria-selected="true" aria-controls="panel-vc" id="tab-vc" data-tab="vc">VC</button>
+          <button class="tabs__btn" role="tab" aria-selected="false" aria-controls="panel-angel" id="tab-angel" data-tab="angel">Angel</button>
+          <button class="tabs__btn" role="tab" aria-selected="false" aria-controls="panel-owner" id="tab-owner" data-tab="owner">Owner</button>
+          <button class="tabs__btn" role="tab" aria-selected="false" aria-controls="panel-board" id="tab-board" data-tab="board">Board</button>
+        </div>
+        <div class="tab-panels">
+          <div class="tab-panel glass is-active" role="tabpanel" id="panel-vc" aria-labelledby="tab-vc">
+            <h3>Venture capital</h3>
+            <p>Portfolio underwriting under uncertainty — not a product beauty contest. Ask both “Is this a good company?” and “Can this become a fund-relevant outcome at this price, ownership, stage, and reserve plan?”</p>
+            <ul>
+              <li>Funnel: screen → deep dive → partner review → memo → IC</li>
+              <li>Diligence domains: financial, commercial, product, team, legal, ESG</li>
+              <li>Evidence changes by stage — pre-seed through growth</li>
+              <li>Red flags as investigation prompts; memos as falsifiable records</li>
+            </ul>
+          </div>
+          <div class="tab-panel glass" role="tabpanel" id="panel-angel" aria-labelledby="tab-angel" hidden>
+            <h3>Angel investors</h3>
+            <p>Personal capital means personal liquidity, concentration, time, relationships, and emotional stakes. Name the objective and write a mandate before FOMO or friendship overrides it.</p>
+            <ul>
+              <li>Five checks: founder-market fit, timing/wedge, model integrity, references, terms</li>
+              <li>Light diligence: 48-hour screen, then a one-week deeper pass if the thesis survives</li>
+              <li>Size cheques from amounts that can be lost without changing essential life plans</li>
+              <li>Diversification reduces single-deal pressure — it does not guarantee returns</li>
+            </ul>
+          </div>
+          <div class="tab-panel glass" role="tabpanel" id="panel-owner" aria-labelledby="tab-owner" hidden>
+            <h3>Owners &amp; founders</h3>
+            <p>Make recurring choices visible, owned, and reviewable. Maintain a weekly decision queue. Use experiments for two-way doors and short memos for one-way doors.</p>
+            <ul>
+              <li>Allocation: hiring, pricing, build vs buy, pivot — each with clear alternatives</li>
+              <li>Raising capital is a strategic decision, not a validation ceremony</li>
+              <li>Cash survival: rolling forecasts, pre-agreed triggers, early action over panic</li>
+              <li>Disagree-and-commit with one accountable decider and a review trigger</li>
+            </ul>
+          </div>
+          <div class="tab-panel glass" role="tabpanel" id="panel-board" aria-labelledby="tab-board" hidden>
+            <h3>Boards &amp; governance</h3>
+            <p>Directors generally owe duties to the corporation. Care means informed oversight; loyalty means good faith and managing conflicts. Educational overview only — not legal advice.</p>
+            <ul>
+              <li>Govern purpose, CEO oversight, strategy/risk, major capital — do not become shadow management</li>
+              <li>Business judgment is a process concept, not immunity from bad faith or conflicts</li>
+              <li>Canada and Delaware are not interchangeable; analyse under applicable law</li>
+              <li>Conflicted transactions: disclose early, document alternatives, never backfill process</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRICULUM MAP -->
+    <section class="section" id="curriculum" aria-labelledby="curriculum-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Library map</p>
+          <h2 id="curriculum-title">Nine folders · one progression</h2>
+          <p class="section__lede">
+            From general reasoning to specialist applications — approximately 50 catalogue files.
+            Pair this site with the companion <code>Business-Decision-Principles</code> library in Project Intelligence.
+          </p>
+        </div>
+        <div class="curriculum">
+          <article class="curriculum__item glass reveal"><span>01</span><div><h3>Foundations</h3><p>Outcome/process, reversibility, models, journals, bias safeguards</p></div></article>
+          <article class="curriculum__item glass reveal" style="--d:1"><span>02</span><div><h3>Venture capital</h3><p>Lens, funnel, diligence, stages, economics, red flags, memos</p></div></article>
+          <article class="curriculum__item glass reveal" style="--d:2"><span>03</span><div><h3>Angel investors</h3><p>Angel vs VC, five checks, founder-market fit, light diligence, sizing</p></div></article>
+          <article class="curriculum__item glass reveal" style="--d:3"><span>04</span><div><h3>Owners &amp; founders</h3><p>Operating cadence, allocation, financing, runway, decision rights</p></div></article>
+          <article class="curriculum__item glass reveal" style="--d:4"><span>05</span><div><h3>Boards &amp; governance</h3><p>Care, loyalty, business judgment, boundaries, conflicts</p></div></article>
+          <article class="curriculum__item glass reveal" style="--d:5"><span>06</span><div><h3>Deal terms &amp; capital</h3><p>SAFEs, notes, priced rounds, dilution, preferences, alignment</p></div></article>
+          <article class="curriculum__item glass reveal" style="--d:6"><span>07</span><div><h3>Worksheets</h3><p>Journals, checklists, scorecards, premortems, memos, reviews</p></div></article>
+          <article class="curriculum__item glass reveal" style="--d:7"><span>08</span><div><h3>Learning paths</h3><p>Four role-based sequences for investors, founders, owners, boards</p></div></article>
+          <article class="curriculum__item glass reveal" style="--d:8"><span>09</span><div><h3>Teach others</h3><p>Workshop plan, discussion prompts, quiz bank</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKSHEETS -->
+    <section class="section worksheets" id="worksheets" aria-labelledby="worksheets-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">07 · Worksheets</p>
+          <h2 id="worksheets-title">Six tools you can copy today</h2>
+          <p class="section__lede">
+            Templates turn principles into muscle memory. Use them before advocacy pressure rises —
+            and at review, when honesty is hardest.
+          </p>
+        </div>
+        <div class="card-grid card-grid--3">
+          <article class="card card--tool glass reveal">
+            <h3>Decision journal</h3>
+            <p>Owner, deadline, alternatives, assumptions, ranges, disconfirming evidence, kill trigger, review date.</p>
+          </article>
+          <article class="card card--tool glass reveal" style="--d:1">
+            <h3>VC diligence checklist</h3>
+            <p>Domains, evidence quality, confidence, downside if false, and the next falsifiable test.</p>
+          </article>
+          <article class="card card--tool glass reveal" style="--d:2">
+            <h3>Angel scorecard</h3>
+            <p>Red / amber / green across ownership, cash, customers, IP, team, terms, and compliance.</p>
+          </article>
+          <article class="card card--tool glass reveal" style="--d:3">
+            <h3>One-way-door premortem</h3>
+            <p>Imagine failure, list plausible causes, leading indicators, and mitigations before commitment.</p>
+          </article>
+          <article class="card card--tool glass reveal" style="--d:4">
+            <h3>Investment memo outline</h3>
+            <p>Thesis, facts vs claims vs assumptions, scenarios, risks, recommendation, dissent, open items.</p>
+          </article>
+          <article class="card card--tool glass reveal" style="--d:5">
+            <h3>Weekly decision review</h3>
+            <p>Owner cadence: what was decided, what was learned, what to reopen, what to improve next week.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEAL TERMS -->
+    <section class="section" id="terms" aria-labelledby="terms-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">06 · Conceptual primer</p>
+          <h2 id="terms-title">Deal terms without the theatre</h2>
+          <p class="section__lede">
+            Instruments change ownership, control, and downside. Read the actual documents with
+            qualified counsel in the relevant jurisdiction — this is orientation, not a substitute.
+          </p>
+        </div>
+        <div class="card-grid card-grid--3">
+          <article class="card glass reveal">
+            <h3>SAFE</h3>
+            <p>A contract for future equity subject to its text — not ordinary shares today, and not automatically “free” or dilution-free. Cap, discount, and conversion mechanics matter.</p>
+          </article>
+          <article class="card glass reveal" style="--d:1">
+            <h3>Convertible note</h3>
+            <p>Debt that may convert. Can include maturity, interest, priority, and other obligations that a SAFE does not automatically create.</p>
+          </article>
+          <article class="card glass reveal" style="--d:2">
+            <h3>Priced round</h3>
+            <p>Shares at a negotiated price — often with fuller governance and investor rights. Model pool treatment, preferences, and future dilution explicitly.</p>
+          </article>
+        </div>
+        <p class="terms__foot reveal">
+          Cap tables track legal holders, options, SAFEs, notes, and fully diluted percentages.
+          Dilution shrinks ownership percentage; enterprise value can still rise if capital creates more value.
+          Ownership ≠ control ≠ exit proceeds.
+        </p>
+      </div>
+    </section>
+
+    <!-- TEACH OTHERS -->
+    <section class="section teach" id="teach" aria-labelledby="teach-title">
+      <div class="container teach__inner glass reveal">
+        <div>
+          <p class="eyebrow">09 · Teach others</p>
+          <h2 id="teach-title">Turn the library into a workshop</h2>
+          <p>
+            A 90-minute session, discussion prompts, and a quiz bank — so teams share vocabulary
+            instead of slogans. Facilitators get structure; learners get practice, not a lecture.
+          </p>
+          <ul class="teach__list">
+            <li>Frame a live decision in the first fifteen minutes</li>
+            <li>Run a premortem and assign a red-team voice</li>
+            <li>Close with a journal entry and a scheduled review</li>
+          </ul>
+        </div>
+        <div class="teach__badge" aria-hidden="true">
+          <span>90</span>
+          <small>min workshop</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- START CTA -->
+    <section class="section cta" id="start" aria-labelledby="start-title">
+      <div class="container cta__box glass reveal">
+        <p class="eyebrow">First 30 minutes</p>
+        <h2 id="start-title">Start with one real decision</h2>
+        <ol class="cta__steps">
+          <li><strong>0–5 min</strong> — Frame owner, deadline, objective, constraints, do-nothing, door type</li>
+          <li><strong>5–10</strong> — Three assumptions, base/upside/downside, what would change your mind</li>
+          <li><strong>10–15</strong> — Inversion, premortem, second-order effects</li>
+          <li><strong>15–20</strong> — Research, voices, authority, review trigger</li>
+          <li><strong>20–25</strong> — Journal the decision with rough probabilities</li>
+          <li><strong>25–30</strong> — Schedule review and leading indicators</li>
+        </ol>
+        <p class="cta__hint">Open the companion <code>Business-Decision-Principles</code> library in this Project Intelligence folder for full lessons and worksheets.</p>
+      </div>
+    </section>
+
+    <!-- SOURCES -->
+    <section class="section sources" id="sources" aria-labelledby="sources-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Bibliography</p>
+          <h2 id="sources-title">Sources &amp; further reading</h2>
+          <p class="section__lede">
+            Interpretations here are educational. Follow the originals for primary wording and context.
+          </p>
+        </div>
+        <ul class="sources__list reveal">
+          <li><a href="https://www.nber.org/papers/w22587" target="_blank" rel="noopener noreferrer">Gompers, Gornall, Kaplan &amp; Strebulaev — How Do Venture Capitalists Make Decisions? (NBER 22587)</a></li>
+          <li><a href="https://www.annieduke.com/thinking-in-bets/" target="_blank" rel="noopener noreferrer">Annie Duke — Thinking in Bets</a></li>
+          <li><a href="https://www.aboutamazon.com/news/company-news/amazons-original-1997-letter-to-shareholders" target="_blank" rel="noopener noreferrer">Amazon shareholder letters — one-way / two-way door framing</a></li>
+          <li><a href="https://hbr.org/2007/09/performing-a-project-premortem" target="_blank" rel="noopener noreferrer">Gary Klein — Performing a Project Premortem (HBR)</a></li>
+          <li><a href="https://hbr.org/2011/06/before-you-make-that-big-decision" target="_blank" rel="noopener noreferrer">Kahneman, Lovallo &amp; Sibony — Before You Make That Big Decision</a></li>
+          <li><a href="https://www.ycombinator.com/documents" target="_blank" rel="noopener noreferrer">Y Combinator — SAFE financing documents</a></li>
+          <li><a href="https://laws-lois.justice.gc.ca/eng/acts/c-44/" target="_blank" rel="noopener noreferrer">Canada Business Corporations Act — directors’ duties</a></li>
+          <li><a href="https://corplaw.delaware.gov/delaware-way-business-judgment/" target="_blank" rel="noopener noreferrer">Delaware — business judgment overview</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>Business Decision Principles</strong>
+        <p>Educational synthesis for capital allocators, operators, boards, and teachers.</p>
+      </div>
+      <p class="footer__disclaimer">
+        <strong>Educational disclaimer:</strong> This site is not legal, tax, accounting, or financial advice.
+        Laws, fiduciary duties, securities rules, financing documents, and financial outcomes vary by
+        jurisdiction and facts. Obtain qualified professional advice before acting. Research figures
+        (including Gompers et al.) are cited from the linked sources and are survey findings, not guarantees.
+      </p>
+      <p class="footer__copy">© <span id="year"></span> · Companion library inside Project Intelligence</p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+# Glossary
+
+- **Accredited investor:** A person or entity meeting jurisdiction-specific criteria to access certain private offerings. Rules differ; verify locally.
+- **BJR (business judgment rule):** A doctrine that can protect informed, good-faith, disinterested corporate decisions from hindsight review, subject to jurisdiction and facts.
+- **Burn multiple:** Net cash burned divided by net new recurring revenue (or another explicitly defined growth denominator) over a period. Define the numerator and denominator before comparing.
+- **Cap table:** The ownership ledger showing shares, options, SAFEs/notes, and resulting percentages.
+- **Cohort:** Customers grouped by a shared start period or characteristic so retention and monetisation can be compared fairly.
+- **Discount:** A note or SAFE feature giving conversion at a percentage reduction to a subsequent priced round price.
+- **Due diligence:** A proportionate investigation of claims, risks, evidence, and terms before a decision.
+- **Expected value (EV):** Probability-weighted value across possible outcomes; useful for comparing choices, not a guarantee.
+- **Fiduciary duty:** A duty of trust and loyalty/care owed in a defined relationship; corporate duties depend on the governing statute, charter, case law, and facts.
+- **Founder-market fit:** Evidence that a team has unusual insight, credibility, access, or stamina for the problem and customers.
+- **Funnel:** The progression from screen to diligence to partner review, memo, and investment committee (IC) decision.
+- **Information rights:** Contractual rights to receive reports, financials, or other company information.
+- **Liquidation preference:** A priority claim on proceeds before common holders, usually defined by a financing document.
+- **LTV/CAC:** Estimated customer lifetime value divided by customer acquisition cost. It is a model, not a fact; cohort, gross-margin, payback, and churn assumptions matter.
+- **PMF (product-market fit):** Strong evidence that a defined market repeatedly values, adopts, retains, and ideally pays for a product.
+- **Pre-seed / seed / Series A / growth:** Informal stage labels. What matters is evidence and financing purpose, not the label alone.
+- **Pro-rata right:** A right, if negotiated and subject to conditions, to participate in future financing to maintain an ownership percentage.
+- **Runway:** Cash available divided by a defined monthly net burn; use a cash-flow model and scenario range rather than one number.
+- **SAFE:** Simple Agreement for Future Equity; a contract for future equity subject to its terms and local law, not ordinary shares today.
+- **SAM:** Serviceable Available Market: the part of TAM a product and business model can target.
+- **SOM:** Serviceable Obtainable Market: a realistic near-term share of SAM given capacity, competition, and distribution.
+- **TAM:** Total Addressable Market under a stated definition and method; a large headline number is not automatically investable.
+- **Two-way door:** A reversible decision that can be changed at tolerable cost; decide quickly with a small feedback loop.
+- **One-way door:** A hard-to-reverse decision with material downside; slow down enough to improve evidence and alignment.
+- **Value-add:** Specific support an investor can credibly provide after investing; distinguish promises from capacity and references.

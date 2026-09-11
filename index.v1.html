@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Intelligence</title>
+  <meta name="description" content="A local knowledge hub assembling Survival of the Fittest & Fit-Meaning, Speak Well, Public Speaking Resources, Money Atlas, Gold and Silver, and Business Decision Principles." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <p class="brand-kicker">Local library</p>
+        <h1 class="brand-title">Project Intelligence</h1>
+      </div>
+      <nav class="menu" aria-label="Modules">
+        <button type="button" class="menu-item active" data-module="home" data-src="">Home</button>
+        <button type="button" class="menu-item" data-module="fit" data-src="Fit-Meaning/index.html">Survival of the Fittest &amp; Fit-Meaning</button>
+        <button type="button" class="menu-item" data-module="speak" data-src="Speak-Well/index.html">Speak Well</button>
+        <button type="button" class="menu-item" data-module="psr" data-src="Public-Speaking-Resources/index.html">Public Speaking Resources</button>
+        <button type="button" class="menu-item" data-module="money" data-src="money-atlas/dist/index.html" data-fallback="money-atlas/index.html">Money Atlas</button>
+        <button type="button" class="menu-item" data-module="gold" data-src="Gold and silver/gold-silver-learn/index.html">Gold and Silver</button>
+        <button type="button" class="menu-item" data-module="bdp" data-src="Business-Decision-Principles/Business-Decision-Principles-Website/index.html">Business Decision Principles</button>
+      </nav>
+      <p class="sidebar-note">Original project content is unchanged. Use the menu to open each module.</p>
+    </aside>
+
+    <div class="main-wrap">
+      <header class="topbar">
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">☰</button>
+        <div class="topbar-text">
+          <p class="current-label" id="current-label">Home</p>
+          <a class="open-external" id="open-external" href="#" hidden target="_blank" rel="noopener">Open module in new tab</a>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="home" id="home-panel">
+          <p class="eyebrow">Assembled knowledge hub</p>
+          <h2>One place for your learning projects</h2>
+          <p class="lede">Project Intelligence keeps each library intact and lets you switch between them from a single local menu.</p>
+          <div class="card-grid" id="card-grid"></div>
+          <div class="home-foot">
+            <p>Companion source for Fit-Meaning lives in <code>Survival of the Fittest/</code>. Money Atlas prefers a built <code>dist/</code> when available; otherwise use its start command.</p>
+          </div>
+        </section>
+        <iframe id="module-frame" class="module-frame" title="Module content" hidden></iframe>
+      </main>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

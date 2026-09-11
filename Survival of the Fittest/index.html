@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Survival of the Fittest — Educational Pack</title>
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --ink: #1c1917;
+      --muted: #57534e;
+      --line: #d6d3d1;
+      --card: #fffcf7;
+      --accent: #1d4e4a;
+      --accent-2: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    html { font-size: 18px; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", Times, serif;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    h1 {
+      font-family: "Palatino Linotype", Palatino, Georgia, serif;
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 0.4rem;
+      letter-spacing: -0.02em;
+    }
+    .lede {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin: 0 0 1.75rem;
+    }
+    p { margin: 0 0 1rem; }
+    a {
+      color: var(--accent-2);
+      text-underline-offset: 2px;
+    }
+    a:hover { color: var(--accent); }
+    nav {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0.4rem 0;
+    }
+    ol.toc {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      counter-reset: none;
+    }
+    ol.toc li {
+      border-bottom: 1px solid var(--line);
+    }
+    ol.toc li:last-child { border-bottom: 0; }
+    ol.toc a {
+      display: block;
+      padding: 0.85rem 1.1rem;
+      text-decoration: none;
+      color: inherit;
+    }
+    ol.toc a:hover {
+      background: #f0ebe3;
+    }
+    .label {
+      display: block;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.15rem;
+    }
+    .title {
+      font-size: 1.05rem;
+    }
+    .hint {
+      display: block;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.2rem;
+    }
+    footer {
+      margin-top: 2rem;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Survival of the Fittest</h1>
+    <p class="lede">A short educational pack for a curious learner. Read in order. The files open as markdown in the browser or in any text editor.</p>
+    <p>The folk meaning of the phrase is “the strongest win.” The scientific meaning is natural selection: heritable differences that affect reproductive success change populations over time. Fitness is not strength, virtue, or rank on a ladder.</p>
+    <nav aria-label="Pack contents">
+      <ol class="toc">
+        <li>
+          <a href="START_HERE.md">
+            <span class="label">Begin</span>
+            <span class="title">START_HERE.md</span>
+            <span class="hint">Welcome, how to use the pack, one-page overview</span>
+          </a>
+        </li>
+        <li>
+          <a href="00-learning-plan.md">
+            <span class="label">Study plan</span>
+            <span class="title">00-learning-plan.md</span>
+            <span class="hint">Five sessions, 20–30 minutes each, in order</span>
+          </a>
+        </li>
+        <li>
+          <a href="01-what-it-means.md">
+            <span class="label">Lesson 1</span>
+            <span class="title">01-what-it-means.md</span>
+            <span class="hint">What the phrase actually means; Spencer, Darwin, fitness</span>
+          </a>
+        </li>
+        <li>
+          <a href="02-how-selection-works.md">
+            <span class="label">Lesson 2</span>
+            <span class="title">02-how-selection-works.md</span>
+            <span class="hint">Variation, heredity, differential reproduction; moths, resistance, finches</span>
+          </a>
+        </li>
+        <li>
+          <a href="03-misconceptions.md">
+            <span class="label">Lesson 3</span>
+            <span class="title">03-misconceptions.md</span>
+            <span class="hint">Ladders, tooth-and-claw, cooperation, “natural = good,” social Darwinism</span>
+          </a>
+        </li>
+        <li>
+          <a href="04-seeing-it-today.md">
+            <span class="label">Lesson 4</span>
+            <span class="title">04-seeing-it-today.md</span>
+            <span class="hint">Medicine, conservation, agriculture, human evolution myths vs evidence</span>
+          </a>
+        </li>
+        <li>
+          <a href="05-glossary.md">
+            <span class="label">Reference</span>
+            <span class="title">05-glossary.md</span>
+            <span class="hint">One-sentence definitions plus “not the same as”</span>
+          </a>
+        </li>
+        <li>
+          <a href="quiz.md">
+            <span class="label">Check</span>
+            <span class="title">quiz.md</span>
+            <span class="hint">Ten questions; answer key at the bottom</span>
+          </a>
+        </li>
+        <li>
+          <a href="worksheet.md">
+            <span class="label">Apply</span>
+            <span class="title">worksheet.md</span>
+            <span class="hint">Fill-in prompts on a new example, not just recall</span>
+          </a>
+        </li>
+      </ol>
+    </nav>
+    <footer>
+      Open any link above. If a file downloads instead of displaying, open it in a text editor, or drag it into a markdown previewer.
+    </footer>
+  </main>
+</body>
+</html>

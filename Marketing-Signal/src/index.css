@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --color-ink: #1a2332;
+  --color-ink-muted: #5a6577;
+  --color-paper: #f7f4ef;
+  --color-paper-elevated: #ffffff;
+  --color-accent: #0d7a6f;
+  --color-accent-hover: #0a635a;
+  --color-accent-soft: #e6f5f3;
+  --color-coral: #e07a5f;
+  --color-coral-soft: #fdf0ec;
+  --color-sand: #e8e0d4;
+  --color-border: #ddd5c8;
+  --color-success: #2d8a5e;
+  --color-warning: #c9892a;
+}
+
+.dark {
+  --color-ink: #e8e4dc;
+  --color-ink-muted: #9aa3b2;
+  --color-paper: #121820;
+  --color-paper-elevated: #1a2332;
+  --color-accent: #3db8ab;
+  --color-accent-hover: #4ec9bc;
+  --color-accent-soft: #1a3330;
+  --color-coral: #f0a090;
+  --color-coral-soft: #3a2824;
+  --color-sand: #2a3340;
+  --color-border: #2f3a4a;
+  --color-success: #4cba7e;
+  --color-warning: #e0a84a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  min-height: 100vh;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.prose-lesson h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-ink);
+}
+
+.prose-lesson h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-lesson p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  color: var(--color-ink);
+}
+
+.prose-lesson ul, .prose-lesson ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  line-height: 1.75;
+}
+
+.prose-lesson li {
+  margin-bottom: 0.35rem;
+}
+
+.prose-lesson ul {
+  list-style-type: disc;
+}
+
+.prose-lesson ol {
+  list-style-type: decimal;
+}

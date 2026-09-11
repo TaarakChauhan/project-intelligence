@@ -1,0 +1,40 @@
+# Project Intelligence
+
+Visitor-facing local studio that assembles your learning collections under one polished experience.
+
+## Open locally
+
+Double-click **`Start Project Intelligence.command`** on the Desktop (or inside this folder).
+
+Opens `http://127.0.0.1:8787/`.
+
+## Version notes
+
+- **v2 (current):** Public-facing home — boutique / consulting presentation, collection cards, studio chrome.
+- **v1 backup:** `index.v1.html`, `css/styles.v1.css`, `js/app.v1.js`
+
+Original collection lesson content is preserved. Hub shell is visitor-facing.
+
+## QA fixes applied
+
+- Standard CSS font weights
+- Self-hosted Manrope + Cormorant Garamond (`css/fonts.css` + `css/fonts/`)
+- Money Atlas opens only the production `dist/` build (friendly message if missing)
+- Fit-Meaning chrome includes **Source pack** → `Survival of the Fittest`
+- Business Decision Principles copy no longer points at a Desktop-root folder
+- Speak Well lesson prev/next links stay inside `learn/`
+- Hub collections use hash URLs (`#fit`, `#money`, …), encoded paths, and Escape-to-home
+- Threaded local server (`serve.py`) so markdown source packs display as text
+- Money Atlas in-page tool/glossary/article links no longer break HashRouter
+
+## Collections
+
+| Card | Opens |
+|------|--------|
+| Survival of the Fittest & Fit-Meaning | `Fit-Meaning/` (+ Source pack) |
+| Speak Well | `Speak-Well/` |
+| Public Speaking Resources | `Public-Speaking-Resources/` |
+| Money Atlas | `money-atlas/dist/` |
+| Marketing Signal | `Marketing-Signal/dist/` |
+| Gold and Silver | `Gold and silver/gold-silver-learn/` |
+| Business Decision Principles | `Business-Decision-Principles/Business-Decision-Principles-Website/` |
