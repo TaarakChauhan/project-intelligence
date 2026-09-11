@@ -1,0 +1,9 @@
+{
+  "name": "project-intelligence",
+  "private": true,
+  "description": "Project Intelligence studio",
+  "scripts": {
+    "install:apps": "npm install --prefix money-atlas && npm install --prefix Marketing-Signal",
+    "build": "npm run build --prefix money-atlas && npm run build --prefix Marketing-Signal"
+  }
+}
