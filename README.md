@@ -38,3 +38,20 @@ Original collection lesson content is preserved. Hub shell is visitor-facing.
 | Marketing Signal | `Marketing-Signal/dist/` |
 | Gold and Silver | `Gold and silver/gold-silver-learn/` |
 | Business Decision Principles | `Business-Decision-Principles/Business-Decision-Principles-Website/` |
+
+## Live site
+
+Production: [https://project-intelligence-ashen.vercel.app/](https://project-intelligence-ashen.vercel.app/)
+
+GitHub: https://github.com/TaarakChauhan/project-intelligence
+
+## SEO
+
+- `robots.txt` — allows indexing; points to sitemap
+- `sitemap.xml` — hub + collection home URLs
+- `site.config.json` — canonical site origin
+- `og-image.png` — default social share image
+- Hub includes Open Graph / Twitter tags, JSON-LD, and crawlable collection links (iframe studio UX kept for visitors)
+
+**Note:** Money Atlas is a client-rendered SPA under `/money-atlas/dist/` with hash routes, so individual article URLs are limited for SEO until prerendering is added later.
+

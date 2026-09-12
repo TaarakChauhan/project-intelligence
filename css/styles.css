@@ -754,3 +754,30 @@ em { font-style: italic; }
   place-items: center;
   background: #fff;
 }
+
+
+.crawl-links { padding: 3rem 0 1rem; }
+.crawl-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+}
+.crawl-list a {
+  display: block;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  font-weight: 600;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.crawl-list a:hover {
+  border-color: rgba(184, 132, 59, 0.45);
+  transform: translateY(-1px);
+  color: var(--teal);
+}
