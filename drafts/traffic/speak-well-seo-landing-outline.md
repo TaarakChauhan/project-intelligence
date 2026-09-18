@@ -1,6 +1,6 @@
 # Speak Well SEO landing outline (DRAFT — not published)
 
-Target URL idea: `/Speak-Well/learn-public-speaking.html` (not built yet)
+Target URL: `/Speak-Well/learn-public-speaking.html` (built)
 Primary intent: learn public speaking / public speaking practice plan
 Cluster: Speak Well
 
@@ -38,4 +38,4 @@ Title: Learn public speaking with a practice system · Speak Well
 Description: A free curriculum and 30 day plan to practice public speaking with structure, delivery drills, and curated resources.
 
 ## Status
-Outline only. Page not created. No public promotion.
+Landing page built at `/Speak-Well/learn-public-speaking.html`. Social drafts remain unpublished.
