@@ -55,3 +55,10 @@ GitHub: https://github.com/TaarakChauhan/project-intelligence
 
 **Note:** Money Atlas is a client-rendered SPA under `/money-atlas/dist/` with hash routes, so individual article URLs are limited for SEO until prerendering is added later.
 
+## Draft offer (not promoted)
+
+- Path: `/offers/bdp-decision-briefing.html`
+- Offer: Business Decision Principles · Decision Briefing · $297 (PDF + 45 min review)
+- Waitlist UI is draft only (localStorage on device; no server email; `noindex`)
+- Do not add to sitemap or run public promo until explicitly approved
+

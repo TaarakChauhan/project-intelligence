@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decision Briefing · Business Decision Principles · Draft</title>
+  <meta name="description" content="Draft offer: a $297 decision briefing PDF plus a 45 minute review call for founders and operators facing a high stakes choice." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="canonical" href="https://project-intelligence-ashen.vercel.app/offers/bdp-decision-briefing.html" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/fonts.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/offers/offer.css" />
+</head>
+<body class="offer-page">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header is-scrolled">
+    <div class="wrap header-inner">
+      <a class="logo" href="/">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Project <em>Intelligence</em></span>
+      </a>
+      <nav class="primary-nav" aria-label="Offer">
+        <a href="/Business-Decision-Principles/Business-Decision-Principles-Website/">Free library</a>
+        <a href="#waitlist">Join waitlist</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="draft-banner wrap" role="status">Draft only. Not promoted. Waitlist does not send email yet. No checkout connected.</p>
+
+    <section class="offer-hero">
+      <div class="wrap offer-hero-grid">
+        <div>
+          <p class="eyebrow">Business Decision Principles</p>
+          <h1>Decision Briefing</h1>
+          <p class="lede">A written briefing on one high stakes choice, plus a 45 minute review call. Built for founders, operators, and operators who allocate capital under uncertainty.</p>
+          <div class="price-row">
+            <p class="price">$297</p>
+            <p class="price-note">USD · briefing PDF + 45 min review</p>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#waitlist">Join the waitlist</a>
+            <a class="btn btn-ghost" href="/Business-Decision-Principles/Business-Decision-Principles-Website/">Browse the free library</a>
+          </div>
+        </div>
+        <aside class="offer-card" aria-label="What you get">
+          <p class="offer-card-kicker">What you get</p>
+          <ul>
+            <li>Structured decision briefing PDF on one live decision you name</li>
+            <li>Framing around one way vs two way doors, decision quality, and bias traps</li>
+            <li>45 minute review call to pressure test the call and next steps</li>
+            <li>Short follow up note with agreed actions</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="offer-section">
+      <div class="wrap narrow">
+        <p class="eyebrow">Who it is for</p>
+        <h2>When the cost of a bad call is higher than the fee</h2>
+        <ul class="plain-list">
+          <li>Founders choosing raise vs extend runway, hire vs delay, build vs buy</li>
+          <li>Operators facing pricing, channel, or capital allocation forks</li>
+          <li>Angels or owners who want a cleaner memo before they commit</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="offer-section alt">
+      <div class="wrap narrow">
+        <p class="eyebrow">How it works</p>
+        <ol class="steps-offer">
+          <li><strong>You join the waitlist</strong> and share the decision in one paragraph when we open spots.</li>
+          <li><strong>You receive a briefing PDF</strong> using Business Decision Principles frames (not generic coaching).</li>
+          <li><strong>We meet for 45 minutes</strong> to review assumptions, risks, and the commit path.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="offer-section" id="waitlist">
+      <div class="wrap narrow">
+        <p class="eyebrow">Waitlist</p>
+        <h2>Get notified when Decision Briefing opens</h2>
+        <p class="section-copy">Draft form only. Submissions are not emailed or stored on a server yet.</p>
+        <form class="waitlist-form" id="waitlist-form" novalidate>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required maxlength="120" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required maxlength="200" />
+          </label>
+          <label>
+            <span>Decision you are facing (optional)</span>
+            <textarea name="decision" rows="3" maxlength="800" placeholder="Example: raise a seed round now vs stay bootstrap for two quarters"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Join waitlist</button>
+          <p class="form-status" id="form-status" hidden></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="offer-section alt">
+      <div class="wrap narrow">
+        <p class="eyebrow">Details</p>
+        <h2>Offer snapshot</h2>
+        <dl class="detail-grid">
+          <div><dt>Price</dt><dd>$297 USD</dd></div>
+          <div><dt>Deliverable</dt><dd>Decision briefing PDF</dd></div>
+          <div><dt>Call</dt><dd>45 minute review</dd></div>
+          <div><dt>Library</dt><dd>Paired with the free Business Decision Principles site</dd></div>
+        </dl>
+        <p class="fine-print">Educational judgment support only. Not legal, tax, accounting, or investment advice.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="logo-text">Project <em>Intelligence</em></p>
+        <p class="footer-copy">Draft offer page for internal review. Not linked from the public hub promo paths yet.</p>
+      </div>
+      <div>
+        <p class="footer-label">Related</p>
+        <ul>
+          <li><a href="/Business-Decision-Principles/Business-Decision-Principles-Website/">BDP library</a></li>
+          <li><a href="/">Studio home</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var form = document.getElementById("waitlist-form");
+      var status = document.getElementById("form-status");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var data = new FormData(form);
+        var name = String(data.get("name") || "").trim();
+        var email = String(data.get("email") || "").trim();
+        if (!name || !email || email.indexOf("@") < 1) {
+          status.hidden = false;
+          status.textContent = "Add a name and a valid email to continue.";
+          status.className = "form-status error";
+          return;
+        }
+        // Draft mode: keep a local draft record only. No network send.
+        try {
+          var key = "pi_bdp_waitlist_drafts";
+          var existing = JSON.parse(localStorage.getItem(key) || "[]");
+          existing.push({
+            name: name,
+            email: email,
+            decision: String(data.get("decision") || "").trim(),
+            savedAt: new Date().toISOString(),
+            mode: "draft-local-only"
+          });
+          localStorage.setItem(key, JSON.stringify(existing));
+        } catch (err) {}
+        status.hidden = false;
+        status.className = "form-status ok";
+        status.textContent = "Draft mode: saved on this device only. Nothing was emailed or stored on a server.";
+        form.reset();
+      });
+    })();
+  </script>
+</body>
+</html>
