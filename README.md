@@ -65,6 +65,6 @@ GitHub: https://github.com/TaarakChauhan/project-intelligence
 ## Vercel instrumentation
 
 - Web Analytics: `/js/vercel-analytics.js` + `/_vercel/insights/script.js` on static pages
-- Speed Insights: `/js/vercel-speed-insights.js` + `/_vercel/speed-insights/script.js` on static pages; `@vercel/speed-insights` in Money Atlas and Marketing Signal React shells
+- Speed Insights: `<script defer src="/_vercel/speed-insights/script.js"></script>` before `</body>` on served HTML (including Vite app `index.html` shells)
 - Enable both in the Vercel project dashboard, and promote Production if the live domain lags behind `main`
 
