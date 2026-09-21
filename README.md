@@ -62,3 +62,9 @@ GitHub: https://github.com/TaarakChauhan/project-intelligence
 - Waitlist UI is draft only (localStorage on device; no server email; `noindex`)
 - Do not add to sitemap or run public promo until explicitly approved
 
+## Vercel instrumentation
+
+- Web Analytics: `/js/vercel-analytics.js` + `/_vercel/insights/script.js` on static pages
+- Speed Insights: `/js/vercel-speed-insights.js` + `/_vercel/speed-insights/script.js` on static pages; `@vercel/speed-insights` in Money Atlas and Marketing Signal React shells
+- Enable both in the Vercel project dashboard, and promote Production if the live domain lags behind `main`
+
