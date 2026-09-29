@@ -38,6 +38,19 @@
       blurb: "Decision quality under uncertainty for founders, angels, VCs, and boards — presented like a consulting brief.",
       outcome: "Decide with discipline",
       src: "Business-Decision-Principles/Business-Decision-Principles-Website/index.html",
+      next: "founder"
+    },
+    {
+      id: "founder",
+      label: "Founder Path",
+      short: "Founder Path",
+      tag: "Ownership",
+      icon: "P",
+      tone: "tone-bdp",
+      featured: true,
+      blurb: "An original curriculum for owner-operators: commitment, resilience, sales, hiring, leadership, rhythm, courage, and purpose.",
+      outcome: "Build with discipline",
+      src: "Founder-Path/index.html",
       next: "marketing"
     },
     {
@@ -89,7 +102,7 @@
       title: "Decide",
       kicker: "Judgment under uncertainty",
       blurb: "Process first. Then marketing as a decision system.",
-      ids: ["bdp", "marketing"]
+      ids: ["bdp", "founder", "marketing"]
     },
     {
       id: "understand",
