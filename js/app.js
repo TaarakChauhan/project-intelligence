@@ -46,7 +46,7 @@
       short: "Founder Path",
       tag: "Ownership",
       icon: "P",
-      tone: "tone-bdp",
+      tone: "tone-founder",
       featured: true,
       blurb: "An original curriculum for owner-operators: commitment, resilience, sales, hiring, leadership, rhythm, courage, and purpose.",
       outcome: "Build with discipline",
