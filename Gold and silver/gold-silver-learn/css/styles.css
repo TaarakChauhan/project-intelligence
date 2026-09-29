@@ -1,16 +1,16 @@
 /* Gold, Silver & Fiat — Educational site */
 :root {
-  --navy: #0f172a;
-  --navy-mid: #1e293b;
-  --charcoal: #1a1f2e;
-  --ink: #e8edf5;
-  --muted: #94a3b8;
-  --gold: #d4a017;
-  --gold-light: #f0c14b;
+  --navy: #0f0f12;
+  --navy-mid: #16161c;
+  --charcoal: #16161c;
+  --ink: #f3ede3;
+  --muted: #a39e94;
+  --gold: #c9a96e;
+  --gold-light: #e7c48a;
   --gold-dim: rgba(212, 160, 23, 0.15);
   --silver: #c0c7d4;
   --silver-dim: rgba(192, 199, 212, 0.12);
-  --card: #1e293b;
+  --card: #16161c;
   --border: rgba(212, 160, 23, 0.25);
   --takeaway-bg: rgba(212, 160, 23, 0.1);
   --radius: 12px;
