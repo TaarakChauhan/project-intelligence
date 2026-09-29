@@ -1,17 +1,17 @@
 /* Business Decision Principles — premium dark editorial */
 :root {
-  --bg: #070b14;
-  --bg-elevated: #0c1220;
+  --bg: #0f0f12;
+  --bg-elevated: #16161c;
   --bg-card: rgba(16, 24, 40, 0.72);
   --navy: #0a1628;
   --charcoal: #121a2b;
-  --line: rgba(212, 175, 106, 0.14);
+  --line: rgba(243, 237, 227, 0.12);
   --line-strong: rgba(212, 175, 106, 0.28);
-  --text: #e8eef8;
-  --text-muted: #94a3b8;
+  --text: #f3ede3;
+  --text-muted: #a39e94;
   --text-dim: #64748b;
-  --gold: #d4af6a;
-  --gold-bright: #f0d9a0;
+  --gold: #c9a96e;
+  --gold-bright: #e7c48a;
   --gold-deep: #a67c3a;
   --amber: #e8b84a;
   --glow: rgba(212, 175, 106, 0.35);
