@@ -485,23 +485,31 @@ em { font-style: italic; }
 }
 .product-card.featured { grid-column: span 8; }
 .product-media {
-  min-height: 140px;
-  padding: 1.2rem 1.2rem 0.4rem;
+  position: relative;
+  isolation: isolate;
+  min-height: 168px;
+  padding: 1.15rem 1.15rem 0.85rem;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   gap: 1rem;
-  background:
-    linear-gradient(135deg, rgba(201, 169, 110, 0.12), transparent 45%),
+  background-color: #14141a;
+  background-image:
+    linear-gradient(180deg, rgba(15, 15, 18, 0.15) 0%, rgba(15, 15, 18, 0.72) 100%),
+    var(--banner, none),
     var(--tone, linear-gradient(135deg, #1a1a22, #221e18));
+  background-size: cover, cover, cover;
+  background-position: center, center, center;
+  background-repeat: no-repeat;
   border-bottom: 1px solid var(--line);
 }
 .product-media .tag {
   display: inline-flex;
   align-items: center;
   border-radius: 999px;
-  background: rgba(15, 15, 18, 0.55);
-  border: 1px solid var(--line);
+  background: rgba(15, 15, 18, 0.72);
+  border: 1px solid rgba(243, 237, 227, 0.18);
+  backdrop-filter: blur(6px);
   padding: 0.28rem 0.65rem;
   font-size: 0.72rem;
   font-weight: 700;
@@ -515,8 +523,9 @@ em { font-style: italic; }
   border-radius: 1rem;
   display: grid;
   place-items: center;
-  background: rgba(15, 15, 18, 0.45);
-  border: 1px solid var(--line);
+  background: rgba(15, 15, 18, 0.62);
+  border: 1px solid rgba(243, 237, 227, 0.18);
+  backdrop-filter: blur(6px);
   font-family: var(--font-display);
   font-size: 1.4rem;
   font-weight: 700;
@@ -564,13 +573,32 @@ em { font-style: italic; }
   font-size: 0.92rem;
 }
 
-.tone-fit { --tone: linear-gradient(135deg, #1a2420, #1c1c18); }
-.tone-speak { --tone: linear-gradient(135deg, #241c1a, #1c1814); }
+.tone-fit {
+  --tone: linear-gradient(135deg, #1a2420, #1c1c18);
+  --banner: url("../media/card-banners/fit.jpg");
+}
+.tone-speak {
+  --tone: linear-gradient(135deg, #241c1a, #1c1814);
+  --banner: url("../media/card-banners/speak.jpg");
+}
 .tone-psr { --tone: linear-gradient(135deg, #1c1a24, #1a1814); }
-.tone-money { --tone: linear-gradient(135deg, #1a1e28, #1c1a14); }
-.tone-signal { --tone: linear-gradient(135deg, #1a2422, #1c1a14); }
+.tone-money {
+  --tone: linear-gradient(135deg, #1a1e28, #1c1a14);
+  --banner: url("../media/card-banners/money.jpg");
+}
+.tone-signal {
+  --tone: linear-gradient(135deg, #1a2422, #1c1a14);
+  --banner: url("../media/card-banners/marketing.jpg");
+}
 .tone-gold { --tone: linear-gradient(135deg, #2a2418, #1c1a14); }
-.tone-bdp { --tone: linear-gradient(135deg, #1a1824, #14141a); }
+.tone-bdp {
+  --tone: linear-gradient(135deg, #1a1824, #14141a);
+  --banner: url("../media/card-banners/bdp.jpg");
+}
+.tone-founder {
+  --tone: linear-gradient(135deg, #1c1814, #14120f);
+  --banner: url("../media/card-banners/founder.jpg");
+}
 
 .method-grid {
   display: grid;
