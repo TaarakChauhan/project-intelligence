@@ -128,6 +128,13 @@ h3 { font-size: 1.25rem; }
   display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
   margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
 }
+.related-block {
+  margin-top: 2rem; padding: 1rem 1.2rem; border: 1px solid var(--line);
+  border-radius: var(--radius); background: var(--bg-elev);
+}
+.related-block strong { display: block; margin-bottom: .45rem; }
+.related-block ul { margin: .35rem 0 0; padding-left: 1.15rem; }
+.related-block li { margin: .25rem 0; }
 .resource-card { display: flex; flex-direction: column; gap: .4rem; }
 .resource-card .meta { font-size: .88rem; color: var(--muted); }
 .chips { display: flex; gap: .4rem; flex-wrap: wrap; }
