@@ -35,9 +35,22 @@
       icon: "B",
       tone: "tone-bdp",
       featured: false,
-      blurb: "Decision quality under uncertainty for founders, angels, VCs, and boards — presented like a consulting brief.",
+      blurb: "Decision quality under uncertainty for founders, angels, VCs, and boards, presented like a consulting brief.",
       outcome: "Decide with discipline",
       src: "Business-Decision-Principles/Business-Decision-Principles-Website/index.html",
+      next: "founder"
+    },
+    {
+      id: "founder",
+      label: "Founder Path",
+      short: "Founder Path",
+      tag: "Ownership",
+      icon: "P",
+      tone: "tone-founder",
+      featured: true,
+      blurb: "An original curriculum for owner-operators: commitment, resilience, sales, hiring, leadership, rhythm, courage, and purpose.",
+      outcome: "Build with discipline",
+      src: "Founder-Path/index.html",
       next: "marketing"
     },
     {
@@ -48,7 +61,7 @@
       icon: "📡",
       tone: "tone-signal",
       featured: true,
-      blurb: "A free marketing curriculum — strategy, brands, pricing, channels, and communications — with original lessons and quizzes.",
+      blurb: "A free marketing curriculum. Strategy, brands, pricing, channels, and communications, with original lessons and quizzes.",
       outcome: "Build marketing judgment",
       src: "Marketing-Signal/dist/index.html",
       requireBuilt: true,
@@ -63,7 +76,7 @@
       icon: "F",
       tone: "tone-fit",
       featured: false,
-      blurb: "A clear, modern course on natural selection and what “fitness” actually means — without the slogan.",
+      blurb: "A clear, modern course on natural selection and what fitness actually means, without the slogan.",
       outcome: "Understand evolution cleanly",
       src: "Fit-Meaning/index.html"
     }
@@ -89,7 +102,7 @@
       title: "Decide",
       kicker: "Judgment under uncertainty",
       blurb: "Process first. Then marketing as a decision system.",
-      ids: ["bdp", "marketing"]
+      ids: ["bdp", "founder", "marketing"]
     },
     {
       id: "understand",
@@ -100,7 +113,7 @@
     }
   ];
 
-  const SECTION_HASHES = new Set(["collections", "method", "for-whom"]);
+  const SECTION_HASHES = new Set(["collections", "method", "for-whom", "crawl-links", "floor-speak", "floor-money", "floor-decide", "floor-understand"]);
 
   const shell = document.getElementById("shell");
   const homeView = document.getElementById("home-view");
@@ -161,10 +174,10 @@
     shopGrid.innerHTML = floors
       .map((floor) => {
         const cards = floor.ids.map((id) => findCollection(id)).filter(Boolean);
-        return `<section class="floor" aria-labelledby="floor-${floor.id}">
+        return `<section class="floor" id="floor-${floor.id}" aria-labelledby="floor-title-${floor.id}">
           <div class="floor-head">
             <p class="eyebrow">${floor.kicker}</p>
-            <h3 id="floor-${floor.id}">${floor.title}</h3>
+            <h3 id="floor-title-${floor.id}">${floor.title}</h3>
             <p>${floor.blurb}</p>
           </div>
           <div class="shop-grid">${cards.map(cardHtml).join("")}</div>
