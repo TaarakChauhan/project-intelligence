@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Speak Well practice path waitlist · Project Intelligence</title>
+  <meta name="description" content="Join the free Speak Well practice path waitlist. A four week speaking loop: one point, short reps, one recording, one fix." />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="canonical" href="https://project-intelligence-ashen.vercel.app/offers/speak-well-practice-path.html" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/fonts.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/offers/offer.css" />
+</head>
+<body class="offer-page">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header is-scrolled">
+    <div class="wrap header-inner">
+      <a class="logo" href="/">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Project <em>Intelligence</em></span>
+      </a>
+      <nav class="primary-nav" aria-label="Offer">
+        <a href="/Speak-Well/">Free library</a>
+        <a href="#waitlist">Join waitlist</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <p class="draft-banner wrap" role="status">Free practice path waitlist. No paid coaching. No checkout. Same local save pattern as other studio waitlists until server email is wired.</p>
+
+    <section class="offer-hero">
+      <div class="wrap offer-hero-grid">
+        <div>
+          <p class="eyebrow">Speak Well</p>
+          <h1>Hold the room with a calm practice path</h1>
+          <p class="lede">A four week speaking loop for founders, students, and anyone who briefs others. One clear point. Short reps out loud. One recording. One fix. Then tomorrow again.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#waitlist">Join the practice waitlist</a>
+            <a class="btn btn-ghost" href="/Speak-Well/">Browse the free Speak Well library</a>
+          </div>
+        </div>
+        <aside class="offer-card" aria-label="What you get when spots open">
+          <p class="offer-card-kicker">What you get when spots open</p>
+          <ul>
+            <li>Week by week practice map (built from the existing 30 day plan)</li>
+            <li>Weekly film and review prompts</li>
+            <li>One nerve routine you can run before any talk</li>
+            <li>Links into lessons you already host (foundations, structure, delivery, Q&amp;A)</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="offer-section">
+      <div class="wrap narrow">
+        <p class="eyebrow">How it works</p>
+        <h2>Three steps</h2>
+        <ol class="steps-offer">
+          <li><strong>Join the waitlist</strong> and say what you speak for (pitch, board update, class, keynote).</li>
+          <li><strong>When a cohort opens</strong>, you get the practice path and start day one with a timed rep.</li>
+          <li><strong>Keep one weekly recording and one fix.</strong> Speak Well lessons stay free for deeper study.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="offer-section alt" id="waitlist">
+      <div class="wrap narrow">
+        <p class="eyebrow">Waitlist</p>
+        <h2>Get notified when the next practice path opens</h2>
+        <p class="section-copy">Same pattern as the studio Decision Briefing waitlist. Submissions save on this device only until email capture is wired.</p>
+        <form class="waitlist-form" id="waitlist-form" novalidate>
+          <label>
+            <span>Name (optional)</span>
+            <input type="text" name="name" autocomplete="name" maxlength="120" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required maxlength="200" />
+          </label>
+          <label>
+            <span>What do you speak for? (short)</span>
+            <textarea name="context" rows="3" maxlength="800" placeholder="Example: weekly board update, fundraising pitch, class presentation"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Join the practice waitlist</button>
+          <p class="form-status" id="form-status" hidden></p>
+        </form>
+        <p class="fine-print" style="margin-top:1rem">No spam. Path is free in this capture. Paid coaching is not part of this page.</p>
+      </div>
+    </section>
+
+    <section class="offer-section">
+      <div class="wrap narrow">
+        <p class="eyebrow">Already on the site</p>
+        <h2>Start practicing today</h2>
+        <ul class="plain-list">
+          <li><a href="/Speak-Well/">Speak Well hub</a></li>
+          <li><a href="/Speak-Well/learn-public-speaking.html">Practice system guide</a></li>
+          <li><a href="/Speak-Well/plan/30-day.html">30 day practice plan</a></li>
+          <li><a href="/Speak-Well/learn/nerves.html">Nerves lesson</a></li>
+          <li><a href="/Public-Speaking-Resources/">Public Speaking Resources</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="logo-text">Project <em>Intelligence</em></p>
+        <p class="footer-copy">Free list capture for the Speak Well practice path. No paid coaching on this page.</p>
+      </div>
+      <div>
+        <p class="footer-label">Related</p>
+        <ul>
+          <li><a href="/Speak-Well/">Speak Well library</a></li>
+          <li><a href="/">Studio home</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var form = document.getElementById("waitlist-form");
+      var status = document.getElementById("form-status");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var data = new FormData(form);
+        var name = String(data.get("name") || "").trim();
+        var email = String(data.get("email") || "").trim();
+        if (!email || email.indexOf("@") < 1) {
+          status.hidden = false;
+          status.textContent = "Add a valid email to continue.";
+          status.className = "form-status error";
+          return;
+        }
+        // Same pattern as BDP waitlist: local draft record only. No network send.
+        try {
+          var key = "pi_speak_well_waitlist_drafts";
+          var existing = JSON.parse(localStorage.getItem(key) || "[]");
+          existing.push({
+            name: name,
+            email: email,
+            context: String(data.get("context") || "").trim(),
+            savedAt: new Date().toISOString(),
+            mode: "draft-local-only"
+          });
+          localStorage.setItem(key, JSON.stringify(existing));
+        } catch (err) {}
+        status.hidden = false;
+        status.className = "form-status ok";
+        status.textContent = "Saved on this device only. Nothing was emailed or stored on a server yet.";
+        form.reset();
+      });
+    })();
+  </script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
+</body>
+</html>
