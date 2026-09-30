@@ -10,3 +10,6 @@ __pycache__/
 .idea
 .vscode
 *.zip
+
+# Vercel clean static output (generated)
+deploy/
