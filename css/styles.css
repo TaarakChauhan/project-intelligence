@@ -581,6 +581,7 @@ em { font-style: italic; }
   --tone: linear-gradient(135deg, #241c1a, #1c1814);
   --banner: url("../media/card-banners/speak.jpg");
 }
+.tone-mind { --tone: linear-gradient(135deg, #1a1c24, #14161c); }
 .tone-psr { --tone: linear-gradient(135deg, #1c1a24, #1a1814); }
 .tone-money {
   --tone: linear-gradient(135deg, #1a1e28, #1c1a14);

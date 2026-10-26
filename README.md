@@ -38,6 +38,7 @@ Original collection lesson content is preserved. Hub shell is visitor-facing.
 | Marketing Signal | `Marketing-Signal/dist/` |
 | Gold and Silver | `Gold and silver/gold-silver-learn/` |
 | Business Decision Principles | `Business-Decision-Principles/Business-Decision-Principles-Website/` |
+| Instant Gratification | `Instant-Gratification/` |
 
 ## Live site
 

@@ -79,6 +79,18 @@
       blurb: "A clear, modern course on natural selection and what fitness actually means, without the slogan.",
       outcome: "Understand evolution cleanly",
       src: "Fit-Meaning/index.html"
+    },
+    {
+      id: "gratification",
+      label: "Instant Gratification",
+      short: "Instant Gratification",
+      tag: "Mind",
+      icon: "⏳",
+      tone: "tone-mind",
+      featured: false,
+      blurb: "Why we want it now. A plain English intro plus 62 checked books, talks, podcasts, articles and studies.",
+      outcome: "Understand the pull of now",
+      src: "Instant-Gratification/index.html"
     }
   ];
 
@@ -110,10 +122,17 @@
       kicker: "A clean scientific idea",
       blurb: "One short course on what fitness actually means.",
       ids: ["fit"]
+    },
+    {
+      id: "mind",
+      title: "Mind",
+      kicker: "Why we want it now",
+      blurb: "Instant gratification, explained, with the best resources to go deeper.",
+      ids: ["gratification"]
     }
   ];
 
-  const SECTION_HASHES = new Set(["collections", "method", "for-whom", "crawl-links", "floor-speak", "floor-money", "floor-decide", "floor-understand"]);
+  const SECTION_HASHES = new Set(["collections", "method", "for-whom", "crawl-links", "floor-speak", "floor-money", "floor-decide", "floor-understand", "floor-mind"]);
 
   const shell = document.getElementById("shell");
   const homeView = document.getElementById("home-view");
