@@ -47,6 +47,7 @@
       padding: 0 1.25rem 1rem;
     }
     .tab {
+      min-height: 44px;
       appearance: none;
       border: 1px solid var(--line);
       background: var(--card);
@@ -74,6 +75,9 @@
       padding: 1.25rem 1.2rem;
       min-height: 40vh;
     }
+    body, .md.prose, .resource { font-family: "Manrope", "Segoe UI", system-ui, sans-serif; }
+    h1, .md.prose h2, .md.prose h3, .md.prose h4, .resource h2 { font-family: "Cormorant Garamond", Georgia, serif; }
+    main nav.tabs { padding-left: 0; padding-right: 0; }
     .panel[hidden] { display: none !important; }
     pre, .md {
       white-space: pre-wrap;
@@ -87,10 +91,10 @@
       font-size: 1rem;
       white-space: normal;
     }
-    .md.prose h1, .md.prose h2, .md.prose h3 { line-height: 1.25; }
-    .md.prose h1 { font-size: 1.6rem; }
-    .md.prose h2 { font-size: 1.25rem; margin-top: 1.4rem; }
-    .md.prose h3 { font-size: 1.05rem; margin-top: 1.1rem; }
+    .md.prose h2, .md.prose h3, .md.prose h4 { line-height: 1.25; }
+    .md.prose h2 { font-size: 1.6rem; }
+    .md.prose h3 { font-size: 1.25rem; margin-top: 1.4rem; }
+    .md.prose h4 { font-size: 1.05rem; margin-top: 1.1rem; }
     .md.prose p, .md.prose li { color: var(--ink); }
     .md.prose a { color: var(--accent); }
     .md.prose code {
@@ -114,15 +118,17 @@
       border: 1px solid var(--line);
       border-radius: 12px;
       padding: 0.85rem 0.9rem;
-      background: #fff;
+      background: rgba(243, 237, 227, 0.04);
     }
-    .resource h3 { margin: 0 0 0.25rem; font-size: 1.02rem; font-family: Georgia, serif; }
+    .resource h2, .resource h3 { margin: 0 0 0.25rem; font-size: 1.02rem; font-family: Georgia, serif; }
     .resource p { margin: 0.15rem 0; color: var(--muted); font-size: 0.92rem; }
-    .meta { font-size: 0.82rem; color: #78716c; }
-    .error { color: #9f1239; }
+    .meta { font-size: 0.82rem; color: var(--muted); }
+    .error { color: #f2a7a7; }
     .files { margin-top: 0.75rem; font-size: 0.92rem; }
     .files a { color: var(--accent); }
   </style>
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="/css/fonts.css?v=2" />
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -139,6 +145,7 @@
     <p class="lede">Books, courses, talks, frameworks, and a 30-day plan: the same library, arranged to read.</p>
     <p class="lede" style="margin-top:0.55rem">Prefer lessons and a practice loop? Start at <a href="/Speak-Well/" style="color:var(--accent)">Speak Well</a>, then use this page for the master guide and indexes.</p>
   </header>
+  <main id="main">
   <nav class="tabs" role="tablist" aria-label="Resource views">
     <button type="button" class="tab active" role="tab" id="tab-readme" data-view="readme" aria-selected="true" aria-controls="view-readme">README</button>
     <button type="button" class="tab" role="tab" id="tab-plan" data-view="plan" aria-selected="false" aria-controls="view-plan">30-Day Plan</button>
@@ -146,7 +153,6 @@
     <button type="button" class="tab" role="tab" id="tab-index" data-view="index" aria-selected="false" aria-controls="view-index">Resource Index</button>
     <button type="button" class="tab" role="tab" id="tab-docx" data-view="docx" aria-selected="false" aria-controls="view-docx">Master Guide</button>
   </nav>
-  <main id="main">
     <section class="panel" id="view-readme" role="tabpanel" aria-labelledby="tab-readme"><div class="md prose" id="readme-body">Loading…</div></section>
     <section class="panel" id="view-plan" role="tabpanel" aria-labelledby="tab-plan" hidden><div class="md prose" id="plan-body">Loading…</div></section>
     <section class="panel" id="view-category" role="tabpanel" aria-labelledby="tab-category" hidden><div class="md prose" id="category-body">Loading…</div></section>
@@ -214,9 +220,9 @@
         } else {
           closeTable();
         }
-        if (/^### /.test(line)) { closeList(); html += "<h3>" + inline(line.slice(4)) + "</h3>"; continue; }
-        if (/^## /.test(line)) { closeList(); html += "<h2>" + inline(line.slice(3)) + "</h2>"; continue; }
-        if (/^# /.test(line)) { closeList(); html += "<h1>" + inline(line.slice(2)) + "</h1>"; continue; }
+        if (/^### /.test(line)) { closeList(); html += "<h4>" + inline(line.slice(4)) + "</h4>"; continue; }
+        if (/^## /.test(line)) { closeList(); html += "<h3>" + inline(line.slice(3)) + "</h3>"; continue; }
+        if (/^# /.test(line)) { closeList(); html += "<h2>" + inline(line.slice(2)) + "</h2>"; continue; }
         if (/^[-*] /.test(line)) {
           if (!inList) { html += "<ul>"; inList = true; }
           html += "<li>" + inline(line.slice(2)) + "</li>";
@@ -265,7 +271,7 @@
           const url = item.url ? '<p><a href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener">' + escapeHtml(item.url) + "</a></p>" : "";
           const bits = [item.type, item.author, item.level, item.cost].filter(Boolean).join(" · ");
           const notes = item.notes ? "<p>" + escapeHtml(item.notes) + "</p>" : "";
-          return '<article class="resource"><h3>' + escapeHtml(title) + "</h3>" +
+          return '<article class="resource"><h2>' + escapeHtml(title) + "</h2>" +
             (bits ? '<p class="meta">' + escapeHtml(bits) + "</p>" : "") + url + notes + "</article>";
         }).join("") + "</div>";
       } catch (err) {

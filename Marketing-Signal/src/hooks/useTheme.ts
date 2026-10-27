@@ -1,23 +1,18 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 type Theme = 'light' | 'dark';
 
+// The site uses one dark editorial theme to match the Project Intelligence hub.
 export function useTheme() {
-  const [theme, setTheme] = useState<Theme>(() => {
-    if (typeof window === 'undefined') return 'light';
-    const stored = localStorage.getItem('mma-theme') as Theme | null;
-    if (stored) return stored;
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  });
+  const theme: Theme = 'dark';
 
   useEffect(() => {
-    const root = document.documentElement;
-    if (theme === 'dark') root.classList.add('dark');
-    else root.classList.remove('dark');
-    localStorage.setItem('mma-theme', theme);
-  }, [theme]);
+    document.documentElement.classList.add('dark');
+    document.documentElement.style.colorScheme = 'dark';
+  }, []);
 
-  const toggle = () => setTheme((t) => (t === 'light' ? 'dark' : 'light'));
+  const toggle = () => {};
+  const setTheme = (_t: Theme) => {};
 
   return { theme, toggle, setTheme };
 }

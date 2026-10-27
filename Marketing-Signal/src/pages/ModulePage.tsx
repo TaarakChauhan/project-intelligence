@@ -165,9 +165,9 @@ export default function ModulePage() {
           </Link>
         ) : <span />}
         {next ? (
-          <Link to={`/module/${next.slug}`} className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-accent)] px-4 py-3 text-sm font-semibold text-white hover:bg-[var(--color-accent-hover)] sm:ml-auto">
+          <Link to={`/module/${next.slug}`} className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-accent)] px-4 py-3 text-sm font-semibold text-[#0f0f12] hover:bg-[var(--color-accent-hover)] sm:ml-auto">
             <span>
-              <span className="block text-xs text-white/80">Next</span>
+              <span className="block text-xs text-[#0f0f12]/75">Next</span>
               {next.title}
             </span>
             <ArrowRight size={16} />

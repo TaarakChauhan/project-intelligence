@@ -11,15 +11,17 @@
   <meta property="og:description" content="A ready to teach lesson pack on natural selection: learning plan, lessons, glossary, quiz and worksheet for classrooms and home learning." />
   <meta property="og:url" content="https://project-intelligence-ashen.vercel.app/Survival%20of%20the%20Fittest/" />
   <meta property="og:image" content="https://project-intelligence-ashen.vercel.app/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="/css/fonts.css?v=2" />
   <style>
     :root {
-      --bg: #f7f4ee;
-      --ink: #1c1917;
-      --muted: #57534e;
-      --line: #d6d3d1;
-      --card: #fffcf7;
-      --accent: #1d4e4a;
-      --accent-2: #0f766e;
+      --bg: #0f0f12;
+      --ink: #f3ede3;
+      --muted: #a39e94;
+      --line: rgba(243, 237, 227, 0.12);
+      --card: #16161c;
+      --accent: #c9a96e;
+      --accent-2: #e7c48a;
     }
     * { box-sizing: border-box; }
     html { font-size: 18px; }
@@ -27,8 +29,8 @@
       margin: 0;
       background: var(--bg);
       color: var(--ink);
-      font-family: Georgia, "Times New Roman", Times, serif;
-      line-height: 1.55;
+      font-family: "Manrope", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+      line-height: 1.6;
     }
     main {
       max-width: 720px;
@@ -36,9 +38,9 @@
       padding: 2.5rem 1.25rem 4rem;
     }
     h1 {
-      font-family: "Palatino Linotype", Palatino, Georgia, serif;
+      font-family: "Cormorant Garamond", "Iowan Old Style", Palatino, Georgia, serif;
       font-weight: 600;
-      font-size: 2rem;
+      font-size: 2.4rem;
       line-height: 1.2;
       margin: 0 0 0.4rem;
       letter-spacing: -0.02em;
@@ -53,7 +55,12 @@
       color: var(--accent-2);
       text-underline-offset: 2px;
     }
-    a:hover { color: var(--accent); }
+    a:hover { color: var(--ink); }
+    :focus-visible { outline: 2px solid var(--accent-2); outline-offset: 3px; }
+    .skip { position: absolute; left: -999px; top: 0; background: var(--accent); color: #111; padding: 0.5rem 0.8rem; z-index: 20; }
+    .skip:focus { left: 1rem; top: 1rem; }
+    .studio-nav { margin: 0 0 1.5rem; font-size: 0.92rem; }
+    .studio-nav a { display: inline-block; padding: 0.6rem 0; }
     nav {
       background: var(--card);
       border: 1px solid var(--line);
@@ -77,11 +84,11 @@
       color: inherit;
     }
     ol.toc a:hover {
-      background: #f0ebe3;
+      background: rgba(243, 237, 227, 0.05);
     }
     .label {
       display: block;
-      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-family: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
       font-size: 0.72rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -93,21 +100,23 @@
     }
     .hint {
       display: block;
-      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-family: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
       font-size: 0.85rem;
       color: var(--muted);
       margin-top: 0.2rem;
     }
     footer {
       margin-top: 2rem;
-      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-family: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
       font-size: 0.85rem;
       color: var(--muted);
     }
   </style>
 </head>
 <body>
-  <main>
+  <a class="skip" href="#main">Skip to content</a>
+  <main id="main">
+    <p class="studio-nav"><a href="/">Project Intelligence</a> · <a href="/Fit-Meaning/">Fit Meaning course</a></p>
     <h1>Survival of the fittest lesson pack</h1>
     <p class="lede">This is the printable teaching pack. For the short online course, go to <a href="/Fit-Meaning/">What survival of the fittest really means</a>.</p>
     <p class="lede">A short educational pack for a curious learner. Read in order. The files open as markdown in the browser or in any text editor.</p>
@@ -181,6 +190,7 @@
     </nav>
     <footer>
       Open any link above. If a file downloads instead of displaying, open it in a text editor, or drag it into a markdown previewer.
+      <p><a href="/">Back to Project Intelligence</a></p>
     </footer>
   </main>
   <script defer src="/_vercel/speed-insights/script.js"></script>

@@ -3,5 +3,76 @@
   "framework": null,
   "installCommand": "npm run install:apps",
   "buildCommand": "npm run build:deploy",
-  "outputDirectory": "deploy"
+  "outputDirectory": "deploy",
+  "redirects": [
+    {
+      "source": "/money-atlas",
+      "destination": "/money-atlas/dist/",
+      "permanent": true
+    },
+    {
+      "source": "/money-atlas/",
+      "destination": "/money-atlas/dist/",
+      "permanent": true
+    },
+    {
+      "source": "/Marketing-Signal",
+      "destination": "/Marketing-Signal/dist/",
+      "permanent": true
+    },
+    {
+      "source": "/Marketing-Signal/",
+      "destination": "/Marketing-Signal/dist/",
+      "permanent": true
+    },
+    {
+      "source": "/money-atlas/dist",
+      "destination": "/money-atlas/dist/",
+      "permanent": true
+    },
+    {
+      "source": "/Marketing-Signal/dist",
+      "destination": "/Marketing-Signal/dist/",
+      "permanent": true
+    },
+    {
+      "source": "/Business-Decision-Principles",
+      "destination": "/Business-Decision-Principles/Business-Decision-Principles-Website/",
+      "permanent": true
+    },
+    {
+      "source": "/Business-Decision-Principles/",
+      "destination": "/Business-Decision-Principles/Business-Decision-Principles-Website/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/(money-atlas|Marketing-Signal)/dist/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/css/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
 }

@@ -21,7 +21,7 @@ rm -rf "$OUT"
 mkdir -p "$OUT"
 
 # Root static files used by the live hub.
-for f in index.html favicon.svg robots.txt sitemap.xml og-image.png og-image.svg \
+for f in index.html 404.html favicon.svg robots.txt sitemap.xml og-image.png og-image.svg \
   google94283142f23c1ceb.html site.config.json; do
   if [[ -f "$ROOT/$f" ]]; then
     cp "$ROOT/$f" "$OUT/$f"

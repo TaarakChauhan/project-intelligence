@@ -90,7 +90,7 @@ export default function Quiz({ questions, onComplete }: Props) {
             type="button"
             onClick={submit}
             disabled={Object.keys(answers).length < questions.length}
-            className="rounded-xl bg-[var(--color-accent)] px-5 py-2.5 text-sm font-semibold text-white disabled:opacity-40 hover:bg-[var(--color-accent-hover)]"
+            className="rounded-xl bg-[var(--color-accent)] px-5 py-2.5 text-sm font-semibold text-[#0f0f12] disabled:opacity-40 hover:bg-[var(--color-accent-hover)]"
           >
             Check answers
           </button>

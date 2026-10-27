@@ -2,38 +2,43 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@font-face { font-family: "Manrope"; font-style: normal; font-weight: 400 700; font-display: swap; src: url("./assets/fonts/manrope-latin.woff2") format("woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-style: normal; font-weight: 500 700; font-display: swap; src: url("./assets/fonts/cormorant-latin.woff2") format("woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-style: italic; font-weight: 500 700; font-display: swap; src: url("./assets/fonts/cormorant-italic-latin.woff2") format("woff2"); }
+
 @theme {
-  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Fraunces", Georgia, serif;
-  --color-ink: #1a2332;
-  --color-ink-muted: #5a6577;
-  --color-paper: #f7f4ef;
-  --color-paper-elevated: #ffffff;
-  --color-accent: #0d7a6f;
-  --color-accent-hover: #0a635a;
-  --color-accent-soft: #e6f5f3;
-  --color-coral: #e07a5f;
-  --color-coral-soft: #fdf0ec;
-  --color-sand: #e8e0d4;
-  --color-border: #ddd5c8;
-  --color-success: #2d8a5e;
-  --color-warning: #c9892a;
+  --font-sans: "Manrope", "Avenir Next", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --color-ink: #f3ede3;
+  --color-ink-muted: #a39e94;
+  --color-paper: #0f0f12;
+  --color-paper-elevated: #16161c;
+  --color-accent: #c9a96e;
+  --color-accent-hover: #e7c48a;
+  --color-accent-soft: #2a2419;
+  --color-coral: #e7a58f;
+  --color-coral-soft: #2d201c;
+  --color-sand: #1f1f27;
+  --color-border: #2c2b31;
+  --color-success: #7fbf9a;
+  --color-warning: #e7c48a;
 }
 
 .dark {
-  --color-ink: #e8e4dc;
-  --color-ink-muted: #9aa3b2;
-  --color-paper: #121820;
-  --color-paper-elevated: #1a2332;
-  --color-accent: #3db8ab;
-  --color-accent-hover: #4ec9bc;
-  --color-accent-soft: #1a3330;
-  --color-coral: #f0a090;
-  --color-coral-soft: #3a2824;
-  --color-sand: #2a3340;
-  --color-border: #2f3a4a;
-  --color-success: #4cba7e;
-  --color-warning: #e0a84a;
+  --color-ink: #f3ede3;
+  --color-ink-muted: #a39e94;
+  --color-paper: #0f0f12;
+  --color-paper-elevated: #16161c;
+  --color-accent: #c9a96e;
+  --color-accent-hover: #e7c48a;
+  --color-accent-soft: #2a2419;
+  --color-coral: #e7a58f;
+  --color-coral-soft: #2d201c;
+  --color-sand: #1f1f27;
+  --color-border: #2c2b31;
+  --color-success: #7fbf9a;
+  --color-warning: #e7c48a;
+  color-scheme: dark;
 }
 
 html {
@@ -96,3 +101,7 @@ body {
 .prose-lesson ol {
   list-style-type: decimal;
 }
+
+/* Links inside running text stay underlined so they are not identified by color alone */
+.prose-lesson a, main p a { text-decoration: underline; text-underline-offset: 0.18em; }
+:focus-visible { outline: 2px solid var(--color-accent-hover); outline-offset: 3px; }
