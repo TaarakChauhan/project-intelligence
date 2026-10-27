@@ -45,6 +45,7 @@ copy_tree Speak-Well
 copy_tree Fit-Meaning
 copy_tree Founder-Path
 copy_tree Instant-Gratification
+copy_tree Face-Fear
 copy_tree Business-Decision-Principles
 copy_tree "Gold and silver"
 copy_tree Public-Speaking-Resources
@@ -76,7 +77,8 @@ for p in \
   Marketing-Signal/dist/index.html \
   Fit-Meaning/index.html \
   Founder-Path/index.html \
-  Instant-Gratification/index.html
+  Instant-Gratification/index.html \
+  Face-Fear/index.html
 do
   if [[ ! -f "$OUT/$p" ]]; then
     echo "prepare-deploy: ERROR missing $p in output" >&2

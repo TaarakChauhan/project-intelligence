@@ -39,6 +39,7 @@ Original collection lesson content is preserved. Hub shell is visitor-facing.
 | Gold and Silver | `Gold and silver/gold-silver-learn/` |
 | Business Decision Principles | `Business-Decision-Principles/Business-Decision-Principles-Website/` |
 | Instant Gratification | `Instant-Gratification/` |
+| Face Fear | `Face-Fear/` |
 
 ## Live site
 

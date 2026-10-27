@@ -91,6 +91,19 @@
       blurb: "Why we want it now. A plain English intro plus 62 checked books, talks, podcasts, articles and studies.",
       outcome: "Understand the pull of now",
       src: "Instant-Gratification/index.html"
+    },
+    {
+      id: "fear",
+      label: "Face Fear",
+      short: "Face Fear",
+      tag: "Mind",
+      icon: "🕯️",
+      tone: "tone-fear",
+      featured: false,
+      blurb: "Ten original lessons on what fear is, how it works in the brain and body, and how to act with courage. Includes a printable toolkit.",
+      outcome: "Understand fear, then act anyway",
+      src: "Face-Fear/index.html",
+      next: "gratification"
     }
   ];
 
@@ -126,9 +139,9 @@
     {
       id: "mind",
       title: "Mind",
-      kicker: "Why we want it now",
-      blurb: "Instant gratification, explained, with the best resources to go deeper.",
-      ids: ["gratification"]
+      kicker: "What pushes and pulls us",
+      blurb: "Fear and the pull of now, explained, with tools and resources to go deeper.",
+      ids: ["fear", "gratification"]
     }
   ];
 
