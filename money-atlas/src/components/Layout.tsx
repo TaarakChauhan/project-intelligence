@@ -6,7 +6,7 @@ export function Layout() {
   return (
     <>
       <Nav />
-      <main id="main">
+      <main id="main" tabIndex={-1}>
         <Outlet />
       </main>
       <Footer />

@@ -56,7 +56,7 @@ export function L({
       y={y}
       fill={fill}
       fontSize={size}
-      fontFamily="'IBM Plex Sans', sans-serif"
+      fontFamily="'Manrope', sans-serif"
       fontWeight={weight}
       textAnchor={anchor}
     >

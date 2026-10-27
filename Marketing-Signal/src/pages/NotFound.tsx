@@ -9,7 +9,7 @@ export default function NotFound() {
         That address does not match a module, glossary page, or course view.
       </p>
       <p className="mt-6 flex flex-wrap justify-center gap-3">
-        <Link to="/" className="rounded-xl bg-[var(--color-accent)] px-4 py-2 text-sm font-semibold text-white">
+        <Link to="/" className="rounded-xl bg-[var(--color-accent)] px-4 py-2 text-sm font-semibold text-[#0f0f12]">
           Home
         </Link>
         <Link to="/course" className="rounded-xl border border-[var(--color-border)] px-4 py-2 text-sm font-semibold">

@@ -46,7 +46,7 @@ export default function Home() {
           <motion.div className="mt-8 flex flex-wrap gap-3" {...fadeUp(0.18)}>
             <Link
               to={`/module/${continueSlug}`}
-              className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-accent)] px-5 py-3 text-sm font-semibold text-white hover:bg-[var(--color-accent-hover)]"
+              className="inline-flex items-center gap-2 rounded-xl bg-[var(--color-accent)] px-5 py-3 text-sm font-semibold text-[#0f0f12] hover:bg-[var(--color-accent-hover)]"
             >
               {progress.lastVisited ? 'Continue learning' : 'Start module 1'} <ArrowRight size={16} />
             </Link>

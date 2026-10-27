@@ -66,7 +66,7 @@ export function CompoundPlayground() {
       <svg viewBox={`0 0 ${w} ${h}`} className="inline-svg diagram-svg" role="img" aria-label="Balance over time">
         <rect width={w} height={h} fill="#FFF8EE" />
         <polyline points={pts.join(' ')} fill="none" stroke="#C4783A" strokeWidth="3" />
-        <text x="20" y="16" fontSize="11" fill="#5C564C" fontFamily="IBM Plex Sans, sans-serif">
+        <text x="20" y="16" fontSize="11" fill="#5C564C" fontFamily="Manrope, sans-serif">
           Balance over time
         </text>
       </svg>
