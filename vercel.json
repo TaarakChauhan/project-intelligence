@@ -44,6 +44,11 @@
       "source": "/Business-Decision-Principles/",
       "destination": "/Business-Decision-Principles/Business-Decision-Principles-Website/",
       "permanent": true
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/favicon.svg",
+      "permanent": true
     }
   ],
   "headers": [
